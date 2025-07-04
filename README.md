@@ -64,7 +64,7 @@
 
 1. **克隆项目**
 ```bash
-git clone https://github.com/domyyu/Us.git
+git clone https://github.com/Domy-MANS/Us.git
 cd Us
 ```
 
