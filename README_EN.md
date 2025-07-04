@@ -16,7 +16,7 @@
   ![Solo Developer](https://img.shields.io/badge/Solo%20Developer-100%25-brightgreen?style=flat-square&logo=user)
   ![Age](https://img.shields.io/badge/Developer%20Age-16%20years%20old-orange?style=flat-square&logo=graduation-cap)
   
-  [🚀 Try Online](https://domy-mans.github.io/Us/Us.html) | [🤖 AI Chat](https://domy-mans.github.io/Us/UsBot/) | [⬇️ Download](https://github.com/Domy-MANS/Us/archive/refs/heads/main.zip) | [📖 User Guide](#-user-guide)
+  [🚀 Try Online](https://domy-mans.github.io/Us/Us.html) | [⬇️ Download](https://github.com/Domy-MANS/Us/archive/refs/heads/main.zip) | [📖 User Guide](#-user-guide) | [🇨🇳 中文](README.md)
 </div>
 
 ## 🌟 Project Philosophy
@@ -94,9 +94,10 @@ Us project includes 6 main functional modules:
 ### 🌟 Method 1: Online Experience (Recommended)
 > No download required, use directly in browser
 
-- **Homepage**: [https://domy-mans.github.io/Us/](https://domy-mans.github.io/Us/)
 - **Us App**: [https://domy-mans.github.io/Us/Us.html](https://domy-mans.github.io/Us/Us.html)
-- **AI Chat**: [https://domy-mans.github.io/Us/UsBot/](https://domy-mans.github.io/Us/UsBot/)
+- **Project Homepage**: [https://domy-mans.github.io/Us/](https://domy-mans.github.io/Us/)
+
+*Note: AI chat functionality in online version requires local Ollama service support*
 
 ### 📥 Method 2: Download Experience
 > For users who want to run locally
