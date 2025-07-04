@@ -280,4 +280,12 @@ node server.js
 <div align="center">
   <strong>Us is many U, U belong to Us</strong><br>
   让每个人都能找到属于自己的温暖群体 💙
+
+  <br><br>
+
+  <img src="UsBot/UsBotHeart.png" alt="UsBot Heart" width="100"/>
+
+  <br>
+
+  <em>用爱心连接每一个U，温暖每一颗心 ❤️</em>
 </div>
