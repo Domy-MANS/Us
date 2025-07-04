@@ -1,0 +1,5582 @@
+[
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:04:46.734Z",
+    "event": "open_app",
+    "target": "2025-06-26T02:04:46.734Z"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:26:46.734Z",
+    "event": "close_app",
+    "target": "2025-06-26T02:26:46.734Z"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:09:10.734Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:13:34.734Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:17:58.734Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:22:22.734Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:12:48.184Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:08:39.607Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:25:26.182Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:25:13.604Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:14:38.782Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:06:22.436Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:26:17.508Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:26:33.927Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:16:17.940Z",
+    "event": "react_post",
+    "target": "63011"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:24:08.532Z",
+    "event": "react_post",
+    "target": "12797"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:10:15.181Z",
+    "event": "react_post",
+    "target": "52564"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:24:40.948Z",
+    "event": "react_post",
+    "target": "73455"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:14:48.556Z",
+    "event": "react_post",
+    "target": "10670"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:07:39.072Z",
+    "event": "react_post",
+    "target": "89941"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:12:56.838Z",
+    "event": "react_post",
+    "target": "53573"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:16:57.874Z",
+    "event": "comment_post",
+    "target": "47886"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:16:36.059Z",
+    "event": "comment_post",
+    "target": "54965"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:19:21.251Z",
+    "event": "comment_post",
+    "target": "84827"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:11:35.910Z",
+    "event": "comment_post",
+    "target": "47282"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:19:50.426Z",
+    "event": "comment_post",
+    "target": "25549"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-26T02:16:54.923Z",
+    "event": "comment_post",
+    "target": "63050"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:05:42.152Z",
+    "event": "open_app",
+    "target": "2025-06-27T02:05:42.152Z"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:43:42.152Z",
+    "event": "close_app",
+    "target": "2025-06-27T02:43:42.152Z"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:11:07.866Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:16:33.580Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:21:59.294Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:27:25.009Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:32:50.723Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:38:16.437Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:41:24.877Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:26:41.833Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:39:03.747Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:07:03.970Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:22:01.985Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:11:20.658Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:15:53.823Z",
+    "event": "react_post",
+    "target": "72955"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:41:43.837Z",
+    "event": "react_post",
+    "target": "80428"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:24:10.699Z",
+    "event": "react_post",
+    "target": "67587"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:33:01.863Z",
+    "event": "react_post",
+    "target": "42393"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:38:15.406Z",
+    "event": "react_post",
+    "target": "47595"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:39:42.160Z",
+    "event": "react_post",
+    "target": "71083"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:26:53.093Z",
+    "event": "react_post",
+    "target": "20534"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:42:47.254Z",
+    "event": "comment_post",
+    "target": "65858"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:21:54.447Z",
+    "event": "comment_post",
+    "target": "16814"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:33:35.076Z",
+    "event": "comment_post",
+    "target": "46686"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:11:56.808Z",
+    "event": "comment_post",
+    "target": "33930"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:11:53.636Z",
+    "event": "comment_post",
+    "target": "12580"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:29:36.357Z",
+    "event": "comment_post",
+    "target": "23736"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:19:27.927Z",
+    "event": "comment_post",
+    "target": "60048"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:07:30.364Z",
+    "event": "comment_post",
+    "target": "17244"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-27T02:30:39.861Z",
+    "event": "comment_post",
+    "target": "73217"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:25:23.836Z",
+    "event": "open_app",
+    "target": "2025-06-28T01:25:23.836Z"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T02:09:23.836Z",
+    "event": "close_app",
+    "target": "2025-06-28T02:09:23.836Z"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:30:53.836Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:36:23.836Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:41:53.836Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:47:23.836Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:52:53.836Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:58:23.836Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T02:03:53.836Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T02:04:46.395Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T02:08:43.372Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:40:44.448Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:43:17.408Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T02:02:18.525Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:57:12.351Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:54:23.592Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T02:00:28.801Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:36:26.757Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:52:06.809Z",
+    "event": "react_post",
+    "target": "64842"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:40:08.872Z",
+    "event": "react_post",
+    "target": "15924"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:44:26.947Z",
+    "event": "react_post",
+    "target": "66218"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:59:24.455Z",
+    "event": "react_post",
+    "target": "64927"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:26:55.557Z",
+    "event": "react_post",
+    "target": "45937"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:45:45.172Z",
+    "event": "react_post",
+    "target": "70353"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:35:56.237Z",
+    "event": "react_post",
+    "target": "89186"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:57:26.385Z",
+    "event": "react_post",
+    "target": "78982"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:28:44.469Z",
+    "event": "react_post",
+    "target": "77403"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:29:18.590Z",
+    "event": "react_post",
+    "target": "95999"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:41:34.124Z",
+    "event": "react_post",
+    "target": "27489"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T02:01:50.345Z",
+    "event": "comment_post",
+    "target": "19421"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:40:08.659Z",
+    "event": "comment_post",
+    "target": "76651"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:56:20.768Z",
+    "event": "comment_post",
+    "target": "25635"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:26:20.064Z",
+    "event": "comment_post",
+    "target": "30487"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:39:58.841Z",
+    "event": "comment_post",
+    "target": "48256"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:42:00.119Z",
+    "event": "comment_post",
+    "target": "53064"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T02:00:49.466Z",
+    "event": "comment_post",
+    "target": "81807"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-28T01:46:34.240Z",
+    "event": "comment_post",
+    "target": "14679"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:14:50.158Z",
+    "event": "open_app",
+    "target": "2025-06-29T02:14:50.158Z"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T03:04:50.158Z",
+    "event": "close_app",
+    "target": "2025-06-29T03:04:50.158Z"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:19:00.158Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:23:10.158Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:27:20.158Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:31:30.158Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:35:40.158Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:39:50.158Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:44:00.158Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:48:10.158Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:52:20.158Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:56:30.158Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T03:00:40.158Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:49:09.385Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:50:50.297Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:27:07.202Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:41:28.310Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:21:38.099Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:50:21.569Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:17:02.483Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:21:58.808Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:39:10.856Z",
+    "event": "react_post",
+    "target": "90899"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:33:06.743Z",
+    "event": "react_post",
+    "target": "75503"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:41:46.797Z",
+    "event": "react_post",
+    "target": "17890"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T03:03:36.229Z",
+    "event": "react_post",
+    "target": "13179"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:43:43.547Z",
+    "event": "react_post",
+    "target": "38641"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:36:03.779Z",
+    "event": "react_post",
+    "target": "88691"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:26:44.718Z",
+    "event": "react_post",
+    "target": "90311"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:41:56.121Z",
+    "event": "react_post",
+    "target": "48537"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T03:00:16.701Z",
+    "event": "react_post",
+    "target": "68645"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:58:40.832Z",
+    "event": "react_post",
+    "target": "64776"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:56:53.630Z",
+    "event": "react_post",
+    "target": "90213"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:53:19.205Z",
+    "event": "comment_post",
+    "target": "96526"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:29:59.002Z",
+    "event": "comment_post",
+    "target": "90882"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:33:27.628Z",
+    "event": "comment_post",
+    "target": "42827"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:32:11.135Z",
+    "event": "comment_post",
+    "target": "16020"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:22:00.180Z",
+    "event": "comment_post",
+    "target": "20860"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:53:01.229Z",
+    "event": "comment_post",
+    "target": "25650"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:28:57.633Z",
+    "event": "comment_post",
+    "target": "58794"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:22:52.304Z",
+    "event": "comment_post",
+    "target": "46956"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T02:16:08.232Z",
+    "event": "comment_post",
+    "target": "15127"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-29T03:04:16.425Z",
+    "event": "comment_post",
+    "target": "73087"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:17:26.547Z",
+    "event": "open_app",
+    "target": "2025-06-30T02:17:26.547Z"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:29:26.547Z",
+    "event": "close_app",
+    "target": "2025-06-30T03:29:26.547Z"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:23:26.547Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:29:26.547Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:35:26.547Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:41:26.547Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:47:26.547Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:53:26.547Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:59:26.547Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:05:26.547Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:11:26.547Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:17:26.547Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:23:26.547Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:45:49.457Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:58:14.880Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:39:26.804Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:09:30.680Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:18:28.246Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:05:34.176Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:45:58.854Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:36:03.256Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:24:28.599Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:46:19.737Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:50:31.039Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:24:39.279Z",
+    "event": "react_post",
+    "target": "62056"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:17:33.691Z",
+    "event": "react_post",
+    "target": "16589"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:49:52.964Z",
+    "event": "react_post",
+    "target": "58291"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:20:25.545Z",
+    "event": "react_post",
+    "target": "11838"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:11:05.807Z",
+    "event": "react_post",
+    "target": "98091"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:27:15.180Z",
+    "event": "react_post",
+    "target": "83406"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:38:17.838Z",
+    "event": "react_post",
+    "target": "62649"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:44:58.395Z",
+    "event": "react_post",
+    "target": "39248"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:19:01.399Z",
+    "event": "react_post",
+    "target": "24078"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:16:34.835Z",
+    "event": "react_post",
+    "target": "16033"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:29:18.212Z",
+    "event": "react_post",
+    "target": "83429"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:59:12.162Z",
+    "event": "react_post",
+    "target": "63594"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:49:19.343Z",
+    "event": "react_post",
+    "target": "50744"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:41:44.881Z",
+    "event": "react_post",
+    "target": "74247"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:25:29.062Z",
+    "event": "comment_post",
+    "target": "58612"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:23:39.434Z",
+    "event": "comment_post",
+    "target": "17767"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:12:48.043Z",
+    "event": "comment_post",
+    "target": "28976"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:31:03.444Z",
+    "event": "comment_post",
+    "target": "79147"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:13:40.598Z",
+    "event": "comment_post",
+    "target": "31618"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:25:02.609Z",
+    "event": "comment_post",
+    "target": "70595"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:48:10.410Z",
+    "event": "comment_post",
+    "target": "87925"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:26:57.097Z",
+    "event": "comment_post",
+    "target": "98955"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:39:44.280Z",
+    "event": "comment_post",
+    "target": "56539"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:17:39.264Z",
+    "event": "comment_post",
+    "target": "64640"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:42:51.626Z",
+    "event": "comment_post",
+    "target": "78742"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T03:15:18.798Z",
+    "event": "comment_post",
+    "target": "71438"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:58:06.728Z",
+    "event": "comment_post",
+    "target": "86019"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-06-30T02:38:48.765Z",
+    "event": "comment_post",
+    "target": "40155"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:08:15.431Z",
+    "event": "open_app",
+    "target": "2025-07-01T01:08:15.431Z"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T02:18:15.431Z",
+    "event": "close_app",
+    "target": "2025-07-01T02:18:15.431Z"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:12:55.431Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:17:35.431Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:22:15.431Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:26:55.431Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:31:35.431Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:36:15.431Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:40:55.431Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:45:35.431Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:50:15.431Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:54:55.431Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:59:35.431Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T02:04:15.431Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T02:08:55.431Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T02:13:35.431Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:47:56.037Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T02:01:27.818Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:32:38.847Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:21:52.610Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:08:17.742Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T02:08:13.048Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T02:04:38.847Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:23:34.829Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:53:12.529Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:43:33.745Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:55:28.568Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:33:43.035Z",
+    "event": "react_post",
+    "target": "52773"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:58:02.525Z",
+    "event": "react_post",
+    "target": "78185"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:50:23.765Z",
+    "event": "react_post",
+    "target": "19653"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T02:09:46.032Z",
+    "event": "react_post",
+    "target": "86353"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:42:05.800Z",
+    "event": "react_post",
+    "target": "95112"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T02:12:22.799Z",
+    "event": "react_post",
+    "target": "47804"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:08:59.970Z",
+    "event": "react_post",
+    "target": "49578"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:48:19.744Z",
+    "event": "react_post",
+    "target": "73393"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T02:08:01.771Z",
+    "event": "react_post",
+    "target": "47570"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:55:03.153Z",
+    "event": "react_post",
+    "target": "36326"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T02:14:15.238Z",
+    "event": "react_post",
+    "target": "80398"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:49:33.501Z",
+    "event": "react_post",
+    "target": "14432"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:44:52.721Z",
+    "event": "react_post",
+    "target": "51520"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T02:15:36.411Z",
+    "event": "react_post",
+    "target": "84067"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:09:19.004Z",
+    "event": "react_post",
+    "target": "75001"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:11:56.912Z",
+    "event": "comment_post",
+    "target": "51631"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:46:20.095Z",
+    "event": "comment_post",
+    "target": "84298"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:57:00.184Z",
+    "event": "comment_post",
+    "target": "92325"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:23:49.674Z",
+    "event": "comment_post",
+    "target": "29467"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:52:42.600Z",
+    "event": "comment_post",
+    "target": "17089"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:43:45.353Z",
+    "event": "comment_post",
+    "target": "96055"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T02:09:25.227Z",
+    "event": "comment_post",
+    "target": "44013"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:49:43.922Z",
+    "event": "comment_post",
+    "target": "44360"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:26:23.337Z",
+    "event": "comment_post",
+    "target": "18809"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T02:06:31.290Z",
+    "event": "comment_post",
+    "target": "92530"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:40:12.329Z",
+    "event": "comment_post",
+    "target": "90037"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:48:15.845Z",
+    "event": "comment_post",
+    "target": "17585"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:43:59.648Z",
+    "event": "comment_post",
+    "target": "30525"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:40:30.885Z",
+    "event": "comment_post",
+    "target": "80472"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:30:32.106Z",
+    "event": "comment_post",
+    "target": "36276"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:44:40.346Z",
+    "event": "comment_post",
+    "target": "76589"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:33:47.725Z",
+    "event": "comment_post",
+    "target": "41980"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-01T01:10:08.639Z",
+    "event": "comment_post",
+    "target": "16148"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:19:56.230Z",
+    "event": "open_app",
+    "target": "2025-07-02T03:19:56.230Z"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:34:56.230Z",
+    "event": "close_app",
+    "target": "2025-07-02T04:34:56.230Z"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:24:20.935Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:28:45.641Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:33:10.347Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:37:35.053Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:41:59.759Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:46:24.465Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:50:49.171Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:55:13.877Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:59:38.582Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:04:03.288Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:08:27.994Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:12:52.700Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:17:17.406Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:21:42.112Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:26:06.818Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:30:31.524Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:42:14.648Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:32:02.337Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:26:35.447Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:13:01.465Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:56:52.717Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:28:05.892Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:45:32.518Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:42:19.386Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:56:23.073Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:19:18.952Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:30:42.619Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:31:21.749Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:18:42.803Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:29:30.136Z",
+    "event": "react_post",
+    "target": "52888"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:26:55.552Z",
+    "event": "react_post",
+    "target": "55571"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:03:41.306Z",
+    "event": "react_post",
+    "target": "38041"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:21:35.797Z",
+    "event": "react_post",
+    "target": "14232"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:23:44.136Z",
+    "event": "react_post",
+    "target": "27309"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:11:50.626Z",
+    "event": "react_post",
+    "target": "38513"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:35:29.617Z",
+    "event": "react_post",
+    "target": "97072"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:06:15.721Z",
+    "event": "react_post",
+    "target": "45451"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:35:33.835Z",
+    "event": "react_post",
+    "target": "63924"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:36:38.497Z",
+    "event": "react_post",
+    "target": "90322"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:23:21.021Z",
+    "event": "react_post",
+    "target": "51309"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:18:40.313Z",
+    "event": "react_post",
+    "target": "37127"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:30:50.082Z",
+    "event": "react_post",
+    "target": "78762"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:41:10.484Z",
+    "event": "react_post",
+    "target": "98580"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:13:10.327Z",
+    "event": "react_post",
+    "target": "67941"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:02:33.199Z",
+    "event": "react_post",
+    "target": "62286"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:22:24.283Z",
+    "event": "react_post",
+    "target": "50785"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:51:27.590Z",
+    "event": "comment_post",
+    "target": "58294"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:19:33.988Z",
+    "event": "comment_post",
+    "target": "89447"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:10:41.538Z",
+    "event": "comment_post",
+    "target": "54582"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:49:44.382Z",
+    "event": "comment_post",
+    "target": "98098"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:13:24.982Z",
+    "event": "comment_post",
+    "target": "49887"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:29:19.025Z",
+    "event": "comment_post",
+    "target": "39398"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:30:33.694Z",
+    "event": "comment_post",
+    "target": "26609"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:08:51.815Z",
+    "event": "comment_post",
+    "target": "86521"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:24:18.763Z",
+    "event": "comment_post",
+    "target": "30302"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:19:02.073Z",
+    "event": "comment_post",
+    "target": "26839"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:33:34.495Z",
+    "event": "comment_post",
+    "target": "56119"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:21:26.271Z",
+    "event": "comment_post",
+    "target": "71224"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:44:28.576Z",
+    "event": "comment_post",
+    "target": "98364"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:16:58.282Z",
+    "event": "comment_post",
+    "target": "46786"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:25:26.230Z",
+    "event": "comment_post",
+    "target": "36238"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T03:58:53.143Z",
+    "event": "comment_post",
+    "target": "62112"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-02T04:15:22.479Z",
+    "event": "comment_post",
+    "target": "66180"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:23:38.686Z",
+    "event": "open_app",
+    "target": "2025-06-26T01:23:38.686Z"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:55:38.686Z",
+    "event": "close_app",
+    "target": "2025-06-26T01:55:38.686Z"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:27:38.686Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:31:38.686Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:35:38.686Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:39:38.686Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:43:38.686Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:47:38.686Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:51:38.686Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:36:40.357Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:47:51.754Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:34:33.888Z",
+    "event": "react_post",
+    "target": "22138"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:55:30.029Z",
+    "event": "react_post",
+    "target": "38473"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:52:35.029Z",
+    "event": "react_post",
+    "target": "86736"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:43:33.962Z",
+    "event": "react_post",
+    "target": "72160"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:33:51.897Z",
+    "event": "react_post",
+    "target": "10639"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:54:58.618Z",
+    "event": "react_post",
+    "target": "48142"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:44:48.299Z",
+    "event": "react_post",
+    "target": "62529"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:25:05.753Z",
+    "event": "react_post",
+    "target": "40230"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:38:15.715Z",
+    "event": "comment_post",
+    "target": "84241"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:33:53.830Z",
+    "event": "comment_post",
+    "target": "13084"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:46:06.434Z",
+    "event": "comment_post",
+    "target": "51789"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:42:49.910Z",
+    "event": "comment_post",
+    "target": "51942"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:25:35.242Z",
+    "event": "comment_post",
+    "target": "15259"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:41:15.248Z",
+    "event": "comment_post",
+    "target": "38596"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:49:59.173Z",
+    "event": "comment_post",
+    "target": "56291"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:42:54.678Z",
+    "event": "comment_post",
+    "target": "60747"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:48:29.008Z",
+    "event": "comment_post",
+    "target": "82395"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:38:36.549Z",
+    "event": "comment_post",
+    "target": "37618"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-26T01:34:49.911Z",
+    "event": "comment_post",
+    "target": "50983"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:02:30.095Z",
+    "event": "open_app",
+    "target": "2025-06-27T02:02:30.095Z"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:44:30.095Z",
+    "event": "close_app",
+    "target": "2025-06-27T02:44:30.095Z"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:07:45.095Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:13:00.095Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:18:15.095Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:23:30.095Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:28:45.095Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:34:00.095Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:39:15.095Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:15:57.790Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:17:22.214Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:10:28.756Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:24:20.119Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:24:35.122Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:24:23.215Z",
+    "event": "react_post",
+    "target": "43450"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:21:37.262Z",
+    "event": "react_post",
+    "target": "25970"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:31:48.715Z",
+    "event": "react_post",
+    "target": "61961"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:39:02.557Z",
+    "event": "react_post",
+    "target": "21033"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:38:45.449Z",
+    "event": "react_post",
+    "target": "23547"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:15:53.215Z",
+    "event": "react_post",
+    "target": "46190"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:33:02.839Z",
+    "event": "react_post",
+    "target": "10640"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:04:40.556Z",
+    "event": "comment_post",
+    "target": "81762"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:04:18.594Z",
+    "event": "comment_post",
+    "target": "87585"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:27:40.201Z",
+    "event": "comment_post",
+    "target": "90665"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:20:13.407Z",
+    "event": "comment_post",
+    "target": "51746"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:25:44.660Z",
+    "event": "comment_post",
+    "target": "45425"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:25:04.225Z",
+    "event": "comment_post",
+    "target": "68941"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-27T02:03:42.163Z",
+    "event": "comment_post",
+    "target": "16730"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:09:45.367Z",
+    "event": "open_app",
+    "target": "2025-06-28T02:09:45.367Z"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T03:09:45.367Z",
+    "event": "close_app",
+    "target": "2025-06-28T03:09:45.367Z"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:16:25.367Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:23:05.367Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:29:45.367Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:36:25.367Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:43:05.367Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:49:45.367Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:56:25.367Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T03:03:05.367Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:25:10.555Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:58:02.456Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:37:50.040Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:40:10.829Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:11:18.965Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:10:17.641Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:39:22.985Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:18:04.889Z",
+    "event": "react_post",
+    "target": "89736"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:28:01.256Z",
+    "event": "react_post",
+    "target": "11348"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:31:30.382Z",
+    "event": "react_post",
+    "target": "63822"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:48:15.611Z",
+    "event": "react_post",
+    "target": "20932"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:39:56.147Z",
+    "event": "react_post",
+    "target": "69088"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:11:12.327Z",
+    "event": "react_post",
+    "target": "22153"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T03:08:13.879Z",
+    "event": "react_post",
+    "target": "45461"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T03:00:56.641Z",
+    "event": "react_post",
+    "target": "35638"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:22:40.117Z",
+    "event": "react_post",
+    "target": "67166"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:55:18.517Z",
+    "event": "react_post",
+    "target": "74232"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:55:18.630Z",
+    "event": "react_post",
+    "target": "39210"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:24:00.627Z",
+    "event": "react_post",
+    "target": "58959"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:11:13.965Z",
+    "event": "comment_post",
+    "target": "75918"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T03:01:21.303Z",
+    "event": "comment_post",
+    "target": "89115"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:47:13.378Z",
+    "event": "comment_post",
+    "target": "58103"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:37:24.431Z",
+    "event": "comment_post",
+    "target": "30854"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:50:25.662Z",
+    "event": "comment_post",
+    "target": "84355"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:48:10.830Z",
+    "event": "comment_post",
+    "target": "28897"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:12:00.001Z",
+    "event": "comment_post",
+    "target": "49357"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:26:32.906Z",
+    "event": "comment_post",
+    "target": "24550"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-28T02:38:07.061Z",
+    "event": "comment_post",
+    "target": "39681"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:27:31.735Z",
+    "event": "open_app",
+    "target": "2025-06-29T01:27:31.735Z"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:31:31.735Z",
+    "event": "close_app",
+    "target": "2025-06-29T02:31:31.735Z"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:32:51.735Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:38:11.735Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:43:31.735Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:48:51.735Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:54:11.735Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:59:31.735Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:04:51.735Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:10:11.735Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:15:31.735Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:20:51.735Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:26:11.735Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:12:57.949Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:04:43.986Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:42:15.207Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:52:27.405Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:52:16.010Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:11:28.804Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:58:25.002Z",
+    "event": "react_post",
+    "target": "89795"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:34:00.733Z",
+    "event": "react_post",
+    "target": "68488"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:17:13.161Z",
+    "event": "react_post",
+    "target": "73715"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:48:57.185Z",
+    "event": "react_post",
+    "target": "89699"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:39:17.618Z",
+    "event": "react_post",
+    "target": "57767"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:30:03.841Z",
+    "event": "react_post",
+    "target": "41638"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:07:26.642Z",
+    "event": "react_post",
+    "target": "63070"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:19:56.646Z",
+    "event": "react_post",
+    "target": "93745"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:04:48.959Z",
+    "event": "react_post",
+    "target": "36457"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:41:05.392Z",
+    "event": "react_post",
+    "target": "13311"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:25:03.806Z",
+    "event": "react_post",
+    "target": "66038"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:37:28.590Z",
+    "event": "react_post",
+    "target": "21496"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:04:44.467Z",
+    "event": "comment_post",
+    "target": "99659"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:40:56.392Z",
+    "event": "comment_post",
+    "target": "56133"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:58:15.629Z",
+    "event": "comment_post",
+    "target": "47016"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:58:41.697Z",
+    "event": "comment_post",
+    "target": "70567"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:53:47.321Z",
+    "event": "comment_post",
+    "target": "42551"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:48:28.122Z",
+    "event": "comment_post",
+    "target": "55613"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:12:11.794Z",
+    "event": "comment_post",
+    "target": "98099"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:08:03.898Z",
+    "event": "comment_post",
+    "target": "11391"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:47:17.952Z",
+    "event": "comment_post",
+    "target": "86283"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:16:50.494Z",
+    "event": "comment_post",
+    "target": "78902"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T02:01:53.673Z",
+    "event": "comment_post",
+    "target": "44214"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:36:15.618Z",
+    "event": "comment_post",
+    "target": "88036"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:40:24.853Z",
+    "event": "comment_post",
+    "target": "54983"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-29T01:54:56.988Z",
+    "event": "comment_post",
+    "target": "80898"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:08:44.415Z",
+    "event": "open_app",
+    "target": "2025-06-30T01:08:44.415Z"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:27:44.415Z",
+    "event": "close_app",
+    "target": "2025-06-30T02:27:44.415Z"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:14:49.030Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:20:53.645Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:26:58.261Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:33:02.876Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:39:07.491Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:45:12.107Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:51:16.722Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:57:21.338Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:03:25.953Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:09:30.568Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:15:35.184Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:21:39.799Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:15:06.665Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:22:06.223Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:06:34.916Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:27:39.519Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:19:31.717Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:16:43.164Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:14:11.769Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:40:13.733Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:24:04.981Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:47:48.787Z",
+    "event": "react_post",
+    "target": "60986"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:00:06.002Z",
+    "event": "react_post",
+    "target": "52387"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:17:19.912Z",
+    "event": "react_post",
+    "target": "74029"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:25:18.410Z",
+    "event": "react_post",
+    "target": "93166"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:34:59.130Z",
+    "event": "react_post",
+    "target": "10836"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:38:48.792Z",
+    "event": "react_post",
+    "target": "75075"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:16:21.694Z",
+    "event": "react_post",
+    "target": "95580"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:22:15.726Z",
+    "event": "react_post",
+    "target": "32348"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:20:28.290Z",
+    "event": "react_post",
+    "target": "31976"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:05:26.413Z",
+    "event": "react_post",
+    "target": "43421"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:22:26.721Z",
+    "event": "react_post",
+    "target": "93569"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:28:46.652Z",
+    "event": "react_post",
+    "target": "72326"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:14:53.314Z",
+    "event": "react_post",
+    "target": "49627"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:48:23.875Z",
+    "event": "react_post",
+    "target": "39168"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:33:21.520Z",
+    "event": "react_post",
+    "target": "97750"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:55:24.017Z",
+    "event": "react_post",
+    "target": "16838"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:19:06.193Z",
+    "event": "comment_post",
+    "target": "27167"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:52:09.043Z",
+    "event": "comment_post",
+    "target": "27082"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:14:13.084Z",
+    "event": "comment_post",
+    "target": "87279"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:32:47.911Z",
+    "event": "comment_post",
+    "target": "44272"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:31:46.321Z",
+    "event": "comment_post",
+    "target": "29058"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:12:53.452Z",
+    "event": "comment_post",
+    "target": "54881"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:24:20.190Z",
+    "event": "comment_post",
+    "target": "75880"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:21:44.512Z",
+    "event": "comment_post",
+    "target": "17923"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:42:11.062Z",
+    "event": "comment_post",
+    "target": "61348"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:44:57.598Z",
+    "event": "comment_post",
+    "target": "44992"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:56:54.543Z",
+    "event": "comment_post",
+    "target": "56796"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:45:54.769Z",
+    "event": "comment_post",
+    "target": "92328"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T01:10:42.572Z",
+    "event": "comment_post",
+    "target": "85554"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-06-30T02:27:12.639Z",
+    "event": "comment_post",
+    "target": "36724"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:28:31.658Z",
+    "event": "open_app",
+    "target": "2025-07-01T01:28:31.658Z"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:56:31.658Z",
+    "event": "close_app",
+    "target": "2025-07-01T02:56:31.658Z"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:35:17.811Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:42:03.965Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:48:50.119Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:55:36.273Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:02:22.427Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:09:08.581Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:15:54.734Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:22:40.888Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:29:27.042Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:36:13.196Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:42:59.350Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:49:45.504Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:54:02.528Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:45:30.513Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:28:29.772Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:41:39.465Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:55:38.452Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:27:12.886Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:02:55.617Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:55:54.098Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:50:56.644Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:48:57.656Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:49:19.315Z",
+    "event": "react_post",
+    "target": "85980"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:44:37.221Z",
+    "event": "react_post",
+    "target": "66609"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:27:19.868Z",
+    "event": "react_post",
+    "target": "19011"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:46:53.033Z",
+    "event": "react_post",
+    "target": "80520"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:55:22.864Z",
+    "event": "react_post",
+    "target": "94793"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:31:01.489Z",
+    "event": "react_post",
+    "target": "51669"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:14:52.002Z",
+    "event": "react_post",
+    "target": "20465"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:51:02.682Z",
+    "event": "react_post",
+    "target": "84276"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:25:23.416Z",
+    "event": "react_post",
+    "target": "70951"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:24:01.451Z",
+    "event": "react_post",
+    "target": "50469"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:22:03.822Z",
+    "event": "react_post",
+    "target": "99894"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:45:40.786Z",
+    "event": "react_post",
+    "target": "89531"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:50:59.866Z",
+    "event": "react_post",
+    "target": "52292"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:46:15.352Z",
+    "event": "react_post",
+    "target": "62187"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:45:57.270Z",
+    "event": "react_post",
+    "target": "66702"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:54:40.508Z",
+    "event": "react_post",
+    "target": "56565"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:12:03.696Z",
+    "event": "react_post",
+    "target": "43635"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:30:30.701Z",
+    "event": "react_post",
+    "target": "37900"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:07:43.852Z",
+    "event": "comment_post",
+    "target": "93114"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:53:48.259Z",
+    "event": "comment_post",
+    "target": "57936"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:09:34.659Z",
+    "event": "comment_post",
+    "target": "41382"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:26:55.938Z",
+    "event": "comment_post",
+    "target": "12181"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:51:01.495Z",
+    "event": "comment_post",
+    "target": "95389"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:59:33.812Z",
+    "event": "comment_post",
+    "target": "60010"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:19:40.167Z",
+    "event": "comment_post",
+    "target": "59716"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:35:54.337Z",
+    "event": "comment_post",
+    "target": "22897"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:37:43.621Z",
+    "event": "comment_post",
+    "target": "29712"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:45:38.467Z",
+    "event": "comment_post",
+    "target": "62646"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:55:37.687Z",
+    "event": "comment_post",
+    "target": "99236"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:53:42.550Z",
+    "event": "comment_post",
+    "target": "87738"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:48:57.628Z",
+    "event": "comment_post",
+    "target": "89254"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:26:26.247Z",
+    "event": "comment_post",
+    "target": "32471"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T02:16:29.024Z",
+    "event": "comment_post",
+    "target": "59199"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:33:01.013Z",
+    "event": "comment_post",
+    "target": "24301"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-01T01:50:48.154Z",
+    "event": "comment_post",
+    "target": "84787"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:27:09.751Z",
+    "event": "open_app",
+    "target": "2025-07-02T02:27:09.751Z"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:44:09.751Z",
+    "event": "close_app",
+    "target": "2025-07-02T03:44:09.751Z"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:31:58.501Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:36:47.251Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:41:36.001Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:46:24.751Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:51:13.501Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:56:02.251Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:00:51.001Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:05:39.751Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:10:28.501Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:15:17.251Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:20:06.001Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:24:54.751Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:29:43.501Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:34:32.251Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:39:21.001Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:31:15.430Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:31:18.103Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:31:02.436Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:44:02.166Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:07:43.183Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:18:07.234Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:02:29.252Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:57:21.280Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:21:07.192Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:18:35.007Z",
+    "event": "react_post",
+    "target": "33628"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:39:35.714Z",
+    "event": "react_post",
+    "target": "87082"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:30:48.081Z",
+    "event": "react_post",
+    "target": "96763"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:10:52.950Z",
+    "event": "react_post",
+    "target": "66133"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:50:18.139Z",
+    "event": "react_post",
+    "target": "93000"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:58:31.116Z",
+    "event": "react_post",
+    "target": "93371"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:32:17.701Z",
+    "event": "react_post",
+    "target": "16898"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:41:42.966Z",
+    "event": "react_post",
+    "target": "99051"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:51:30.108Z",
+    "event": "react_post",
+    "target": "42894"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:35:19.589Z",
+    "event": "react_post",
+    "target": "37326"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:40:12.075Z",
+    "event": "react_post",
+    "target": "81936"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:51:23.536Z",
+    "event": "react_post",
+    "target": "91994"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:50:36.826Z",
+    "event": "react_post",
+    "target": "90122"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:24:40.139Z",
+    "event": "react_post",
+    "target": "24841"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:22:35.553Z",
+    "event": "react_post",
+    "target": "56613"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:26:59.860Z",
+    "event": "react_post",
+    "target": "91695"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:43:57.328Z",
+    "event": "comment_post",
+    "target": "78497"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:36:43.958Z",
+    "event": "comment_post",
+    "target": "59438"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:20:14.962Z",
+    "event": "comment_post",
+    "target": "82144"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:32:12.297Z",
+    "event": "comment_post",
+    "target": "67326"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:00:33.199Z",
+    "event": "comment_post",
+    "target": "10073"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:34:19.356Z",
+    "event": "comment_post",
+    "target": "26519"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:33:02.294Z",
+    "event": "comment_post",
+    "target": "92304"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:44:11.484Z",
+    "event": "comment_post",
+    "target": "82133"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:27:27.762Z",
+    "event": "comment_post",
+    "target": "57696"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:41:46.300Z",
+    "event": "comment_post",
+    "target": "59495"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:20:53.354Z",
+    "event": "comment_post",
+    "target": "30098"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:28:18.682Z",
+    "event": "comment_post",
+    "target": "55757"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:34:22.025Z",
+    "event": "comment_post",
+    "target": "70865"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T03:09:29.823Z",
+    "event": "comment_post",
+    "target": "75473"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:53:52.822Z",
+    "event": "comment_post",
+    "target": "59556"
+  },
+  {
+    "userId": "testUser002",
+    "timestamp": "2025-07-02T02:27:42.453Z",
+    "event": "comment_post",
+    "target": "69354"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:17:19.026Z",
+    "event": "open_app",
+    "target": "2025-06-26T01:17:19.026Z"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:45:19.026Z",
+    "event": "close_app",
+    "target": "2025-06-26T01:45:19.026Z"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:21:59.026Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:26:39.026Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:31:19.026Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:35:59.026Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:40:39.026Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:38:28.269Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:35:38.595Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:42:50.264Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:26:14.493Z",
+    "event": "react_post",
+    "target": "83465"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:21:19.009Z",
+    "event": "react_post",
+    "target": "61342"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:35:14.818Z",
+    "event": "react_post",
+    "target": "25906"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:23:40.683Z",
+    "event": "react_post",
+    "target": "73036"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:18:53.270Z",
+    "event": "react_post",
+    "target": "47058"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:19:48.670Z",
+    "event": "react_post",
+    "target": "26717"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:27:16.250Z",
+    "event": "comment_post",
+    "target": "71121"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:22:09.539Z",
+    "event": "comment_post",
+    "target": "96388"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:25:52.325Z",
+    "event": "comment_post",
+    "target": "61973"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:22:26.531Z",
+    "event": "comment_post",
+    "target": "62266"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:19:40.227Z",
+    "event": "comment_post",
+    "target": "29855"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:23:13.625Z",
+    "event": "comment_post",
+    "target": "23318"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:27:49.060Z",
+    "event": "comment_post",
+    "target": "34215"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:25:46.617Z",
+    "event": "comment_post",
+    "target": "62664"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-26T01:35:45.684Z",
+    "event": "comment_post",
+    "target": "81625"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:10:06.334Z",
+    "event": "open_app",
+    "target": "2025-06-27T01:10:06.334Z"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:51:06.334Z",
+    "event": "close_app",
+    "target": "2025-06-27T01:51:06.334Z"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:14:12.334Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:18:18.334Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:22:24.334Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:26:30.334Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:30:36.334Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:34:42.334Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:38:48.334Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:42:54.334Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:47:00.334Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:50:37.922Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:46:45.599Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:45:58.571Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:14:08.209Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:50:07.097Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:43:45.999Z",
+    "event": "react_post",
+    "target": "72255"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:45:30.337Z",
+    "event": "react_post",
+    "target": "51076"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:47:21.489Z",
+    "event": "react_post",
+    "target": "78317"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:46:09.168Z",
+    "event": "react_post",
+    "target": "55134"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:30:03.576Z",
+    "event": "react_post",
+    "target": "73322"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:11:34.669Z",
+    "event": "react_post",
+    "target": "24902"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:48:19.487Z",
+    "event": "react_post",
+    "target": "82611"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:49:16.554Z",
+    "event": "react_post",
+    "target": "80372"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:32:53.684Z",
+    "event": "comment_post",
+    "target": "10990"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:25:18.625Z",
+    "event": "comment_post",
+    "target": "46816"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:49:56.581Z",
+    "event": "comment_post",
+    "target": "51898"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:17:09.505Z",
+    "event": "comment_post",
+    "target": "37030"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:41:33.384Z",
+    "event": "comment_post",
+    "target": "69740"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-27T01:23:32.579Z",
+    "event": "comment_post",
+    "target": "70721"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:29:05.111Z",
+    "event": "open_app",
+    "target": "2025-06-28T03:29:05.111Z"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:21:05.111Z",
+    "event": "close_app",
+    "target": "2025-06-28T04:21:05.111Z"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:35:35.111Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:42:05.111Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:48:35.111Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:55:05.111Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:01:35.111Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:08:05.111Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:14:35.111Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:20:43.653Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:16:09.441Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:36:55.305Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:42:15.915Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:42:00.126Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:07:01.084Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:38:04.767Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:57:24.999Z",
+    "event": "react_post",
+    "target": "51701"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:05:18.766Z",
+    "event": "react_post",
+    "target": "39898"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:03:04.307Z",
+    "event": "react_post",
+    "target": "44950"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:16:39.566Z",
+    "event": "react_post",
+    "target": "41857"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:32:58.568Z",
+    "event": "react_post",
+    "target": "84354"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:01:12.192Z",
+    "event": "react_post",
+    "target": "48553"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:32:59.713Z",
+    "event": "react_post",
+    "target": "65248"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:31:11.645Z",
+    "event": "react_post",
+    "target": "73310"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:46:02.690Z",
+    "event": "react_post",
+    "target": "14270"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:57:14.062Z",
+    "event": "react_post",
+    "target": "37081"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:21:03.479Z",
+    "event": "react_post",
+    "target": "62848"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:03:31.675Z",
+    "event": "react_post",
+    "target": "35631"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:44:40.556Z",
+    "event": "comment_post",
+    "target": "23658"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:10:48.814Z",
+    "event": "comment_post",
+    "target": "93484"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:19:22.732Z",
+    "event": "comment_post",
+    "target": "22919"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:48:40.517Z",
+    "event": "comment_post",
+    "target": "54140"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:37:25.095Z",
+    "event": "comment_post",
+    "target": "32115"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:19:50.840Z",
+    "event": "comment_post",
+    "target": "43623"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:29:45.432Z",
+    "event": "comment_post",
+    "target": "10392"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:33:05.657Z",
+    "event": "comment_post",
+    "target": "31282"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T04:02:24.017Z",
+    "event": "comment_post",
+    "target": "13660"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-28T03:31:46.383Z",
+    "event": "comment_post",
+    "target": "38512"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:09:27.329Z",
+    "event": "open_app",
+    "target": "2025-06-29T01:09:27.329Z"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T02:00:27.329Z",
+    "event": "close_app",
+    "target": "2025-06-29T02:00:27.329Z"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:13:22.713Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:17:18.098Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:21:13.482Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:25:08.867Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:29:04.252Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:32:59.636Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:36:55.021Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:40:50.405Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:44:45.790Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:48:41.175Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:52:36.559Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:56:31.944Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:35:43.831Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:47:38.988Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:55:48.148Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:33:46.884Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:59:18.699Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:19:20.157Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:13:56.180Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:13:36.273Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:10:12.214Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:57:28.638Z",
+    "event": "react_post",
+    "target": "32229"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:25:37.847Z",
+    "event": "react_post",
+    "target": "51052"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:16:02.547Z",
+    "event": "react_post",
+    "target": "30456"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:52:21.247Z",
+    "event": "react_post",
+    "target": "19978"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:15:38.673Z",
+    "event": "react_post",
+    "target": "17303"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:11:56.330Z",
+    "event": "react_post",
+    "target": "12546"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:12:44.874Z",
+    "event": "react_post",
+    "target": "28736"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:17:08.443Z",
+    "event": "react_post",
+    "target": "74997"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:36:43.379Z",
+    "event": "react_post",
+    "target": "65189"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:19:47.687Z",
+    "event": "react_post",
+    "target": "83141"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:39:41.638Z",
+    "event": "react_post",
+    "target": "64114"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:25:19.233Z",
+    "event": "react_post",
+    "target": "26738"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:17:40.721Z",
+    "event": "react_post",
+    "target": "13194"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:31:31.947Z",
+    "event": "react_post",
+    "target": "27501"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:55:08.461Z",
+    "event": "comment_post",
+    "target": "91979"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:35:17.881Z",
+    "event": "comment_post",
+    "target": "73128"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:43:41.028Z",
+    "event": "comment_post",
+    "target": "38818"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:38:50.918Z",
+    "event": "comment_post",
+    "target": "50592"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:30:30.779Z",
+    "event": "comment_post",
+    "target": "27865"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:18:14.831Z",
+    "event": "comment_post",
+    "target": "69570"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:50:10.991Z",
+    "event": "comment_post",
+    "target": "79099"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:56:15.166Z",
+    "event": "comment_post",
+    "target": "88748"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:22:09.067Z",
+    "event": "comment_post",
+    "target": "43816"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:57:25.484Z",
+    "event": "comment_post",
+    "target": "28238"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:35:56.334Z",
+    "event": "comment_post",
+    "target": "21315"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:44:13.659Z",
+    "event": "comment_post",
+    "target": "36560"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-29T01:31:51.709Z",
+    "event": "comment_post",
+    "target": "32506"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:16:32.672Z",
+    "event": "open_app",
+    "target": "2025-06-30T02:16:32.672Z"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T03:16:32.672Z",
+    "event": "close_app",
+    "target": "2025-06-30T03:16:32.672Z"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:20:49.814Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:25:06.957Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:29:24.100Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:33:41.243Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:37:58.386Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:42:15.529Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:46:32.672Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:50:49.814Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:55:06.957Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:59:24.100Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T03:03:41.243Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T03:07:58.386Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T03:12:15.529Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:48:42.994Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T03:11:12.246Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:41:05.118Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:55:24.033Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T03:16:07.003Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:23:59.366Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:25:24.349Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T03:02:18.487Z",
+    "event": "react_post",
+    "target": "75919"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:18:44.845Z",
+    "event": "react_post",
+    "target": "12616"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:42:30.992Z",
+    "event": "react_post",
+    "target": "86870"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:44:34.508Z",
+    "event": "react_post",
+    "target": "93072"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:25:39.532Z",
+    "event": "react_post",
+    "target": "18112"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:28:46.475Z",
+    "event": "react_post",
+    "target": "47092"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:33:32.110Z",
+    "event": "react_post",
+    "target": "84810"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T03:07:42.254Z",
+    "event": "react_post",
+    "target": "95489"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:53:57.871Z",
+    "event": "react_post",
+    "target": "48928"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:22:09.480Z",
+    "event": "react_post",
+    "target": "21725"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T03:00:25.415Z",
+    "event": "react_post",
+    "target": "91302"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:46:31.470Z",
+    "event": "react_post",
+    "target": "26117"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T03:07:52.328Z",
+    "event": "react_post",
+    "target": "50298"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:41:05.507Z",
+    "event": "react_post",
+    "target": "77742"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:32:42.327Z",
+    "event": "react_post",
+    "target": "31833"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T03:11:34.774Z",
+    "event": "react_post",
+    "target": "68103"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:24:10.744Z",
+    "event": "comment_post",
+    "target": "50974"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:34:50.935Z",
+    "event": "comment_post",
+    "target": "95611"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:55:42.800Z",
+    "event": "comment_post",
+    "target": "40960"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:38:45.752Z",
+    "event": "comment_post",
+    "target": "32672"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:39:53.130Z",
+    "event": "comment_post",
+    "target": "80245"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:40:03.108Z",
+    "event": "comment_post",
+    "target": "47855"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T03:15:31.173Z",
+    "event": "comment_post",
+    "target": "62628"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:46:07.201Z",
+    "event": "comment_post",
+    "target": "74756"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:54:30.092Z",
+    "event": "comment_post",
+    "target": "72971"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-06-30T02:49:49.570Z",
+    "event": "comment_post",
+    "target": "72876"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:10:25.295Z",
+    "event": "open_app",
+    "target": "2025-07-01T01:10:25.295Z"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T02:25:25.295Z",
+    "event": "close_app",
+    "target": "2025-07-01T02:25:25.295Z"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:16:11.448Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:21:57.602Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:27:43.756Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:33:29.910Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:39:16.064Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:45:02.218Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:50:48.371Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:56:34.525Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T02:02:20.679Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T02:08:06.833Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T02:13:52.987Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T02:19:39.141Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T02:05:50.563Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T02:19:08.328Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:55:54.384Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:15:29.185Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T02:03:40.372Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:37:27.335Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:25:14.145Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:31:26.869Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:40:04.813Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:20:16.562Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:28:25.773Z",
+    "event": "react_post",
+    "target": "35863"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:43:07.289Z",
+    "event": "react_post",
+    "target": "50824"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:50:48.880Z",
+    "event": "react_post",
+    "target": "88583"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:14:09.794Z",
+    "event": "react_post",
+    "target": "85555"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:36:36.136Z",
+    "event": "react_post",
+    "target": "62189"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:24:27.447Z",
+    "event": "react_post",
+    "target": "86870"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T02:05:26.050Z",
+    "event": "react_post",
+    "target": "53259"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:45:03.256Z",
+    "event": "react_post",
+    "target": "44016"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T02:07:22.019Z",
+    "event": "react_post",
+    "target": "53199"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:29:44.494Z",
+    "event": "react_post",
+    "target": "72751"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:25:48.795Z",
+    "event": "react_post",
+    "target": "20946"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:31:58.004Z",
+    "event": "react_post",
+    "target": "65154"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T02:09:59.182Z",
+    "event": "react_post",
+    "target": "73860"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:21:27.755Z",
+    "event": "react_post",
+    "target": "36729"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T02:21:29.634Z",
+    "event": "react_post",
+    "target": "61948"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T02:04:53.856Z",
+    "event": "comment_post",
+    "target": "27374"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:49:31.785Z",
+    "event": "comment_post",
+    "target": "21530"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:11:21.921Z",
+    "event": "comment_post",
+    "target": "31466"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:57:29.037Z",
+    "event": "comment_post",
+    "target": "53412"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:47:56.110Z",
+    "event": "comment_post",
+    "target": "54849"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:16:51.274Z",
+    "event": "comment_post",
+    "target": "54044"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:29:46.758Z",
+    "event": "comment_post",
+    "target": "59507"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:47:09.986Z",
+    "event": "comment_post",
+    "target": "18673"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:58:47.054Z",
+    "event": "comment_post",
+    "target": "69510"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:51:50.713Z",
+    "event": "comment_post",
+    "target": "99066"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T02:13:11.248Z",
+    "event": "comment_post",
+    "target": "81145"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:28:51.545Z",
+    "event": "comment_post",
+    "target": "31892"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T02:08:26.928Z",
+    "event": "comment_post",
+    "target": "95961"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T02:00:41.486Z",
+    "event": "comment_post",
+    "target": "97152"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:29:09.234Z",
+    "event": "comment_post",
+    "target": "19700"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:16:15.725Z",
+    "event": "comment_post",
+    "target": "25480"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:45:18.705Z",
+    "event": "comment_post",
+    "target": "11552"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-01T01:28:50.562Z",
+    "event": "comment_post",
+    "target": "98410"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:12:32.283Z",
+    "event": "open_app",
+    "target": "2025-07-02T02:12:32.283Z"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:46:32.283Z",
+    "event": "close_app",
+    "target": "2025-07-02T03:46:32.283Z"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:20:22.283Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:28:12.283Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"WorkerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:36:02.283Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:43:52.283Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:51:42.283Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:59:32.283Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"TeenagerUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:07:22.283Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:15:12.283Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"AdultUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:23:02.283Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"C\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:30:52.283Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"B\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:38:42.283Z",
+    "event": "post_emotion",
+    "target": "{\"us\":\"ENFPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:53:39.186Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:24:14.033Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:26:07.640Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:16:02.639Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:51:36.863Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:39:18.464Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:48:33.378Z",
+    "event": "join_us",
+    "target": "AdultUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:40:27.736Z",
+    "event": "join_us",
+    "target": "WorkerUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:26:55.101Z",
+    "event": "join_us",
+    "target": "ENFPUs"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:54:27.540Z",
+    "event": "react_post",
+    "target": "92554"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:34:56.351Z",
+    "event": "react_post",
+    "target": "17212"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:41:49.547Z",
+    "event": "react_post",
+    "target": "78706"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:12:58.087Z",
+    "event": "react_post",
+    "target": "69257"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:23:58.607Z",
+    "event": "react_post",
+    "target": "17315"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:01:13.834Z",
+    "event": "react_post",
+    "target": "74336"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:43:43.829Z",
+    "event": "react_post",
+    "target": "17246"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:43:40.925Z",
+    "event": "react_post",
+    "target": "90866"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:18:16.972Z",
+    "event": "react_post",
+    "target": "47824"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:22:37.083Z",
+    "event": "react_post",
+    "target": "55431"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:15:05.678Z",
+    "event": "react_post",
+    "target": "98622"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:40:50.389Z",
+    "event": "react_post",
+    "target": "57307"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:35:55.293Z",
+    "event": "react_post",
+    "target": "32010"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:00:22.829Z",
+    "event": "react_post",
+    "target": "34108"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:31:37.984Z",
+    "event": "react_post",
+    "target": "18642"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:44:00.614Z",
+    "event": "react_post",
+    "target": "89932"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:14:57.777Z",
+    "event": "react_post",
+    "target": "84057"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:17:07.604Z",
+    "event": "react_post",
+    "target": "97245"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:36:33.152Z",
+    "event": "react_post",
+    "target": "75335"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:29:01.513Z",
+    "event": "comment_post",
+    "target": "11171"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:17:22.985Z",
+    "event": "comment_post",
+    "target": "99851"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:18:35.288Z",
+    "event": "comment_post",
+    "target": "81800"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:19:33.435Z",
+    "event": "comment_post",
+    "target": "33647"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:31:46.069Z",
+    "event": "comment_post",
+    "target": "38188"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:00:32.968Z",
+    "event": "comment_post",
+    "target": "92319"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:21:17.377Z",
+    "event": "comment_post",
+    "target": "17323"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:25:01.284Z",
+    "event": "comment_post",
+    "target": "53024"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:32:23.978Z",
+    "event": "comment_post",
+    "target": "84671"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:43:10.265Z",
+    "event": "comment_post",
+    "target": "99107"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:06:38.900Z",
+    "event": "comment_post",
+    "target": "41148"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:17:20.749Z",
+    "event": "comment_post",
+    "target": "51624"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:16:58.614Z",
+    "event": "comment_post",
+    "target": "73104"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:26:50.403Z",
+    "event": "comment_post",
+    "target": "93076"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:46:28.239Z",
+    "event": "comment_post",
+    "target": "33212"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T03:32:52.575Z",
+    "event": "comment_post",
+    "target": "54601"
+  },
+  {
+    "userId": "testUser003",
+    "timestamp": "2025-07-02T02:44:16.746Z",
+    "event": "comment_post",
+    "target": "40380"
+  }
+]

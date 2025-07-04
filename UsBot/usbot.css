@@ -1,0 +1,234 @@
+#usbot {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  width: 80px;
+  height: 120px;
+  z-index: 9999;
+  cursor: grab;
+  user-select: none;
+  transform: scale(1.5);
+  transform-origin: left top;
+}
+
+#usbot .robot {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.robot .head {
+  width: 40px;
+  height: 20px;
+  background: linear-gradient(to right, #33f, #f33);
+  margin: 0 auto;
+  border-radius: 4px;
+  position: relative;
+}
+
+.robot .eyes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 6px;
+  background: linear-gradient(to right, darkred 50%, darkblue 50%);
+  border-radius: 3px;
+  transform: translate(-50%, -50%);
+}
+
+.robot .body {
+  position: relative;
+  width: 30px;
+  height: 40px;
+  background: #444;
+  margin: 5px auto;
+  border-radius: 3px;
+}
+
+.logo-heart img {
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  width: 12px;
+  height: auto;
+  image-rendering: pixelated;
+  opacity: 0.95;
+  animation: softbeat 3s ease-in-out infinite;
+}
+
+.logo-badge {
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  width: 18px;
+  height: 18px;
+  opacity: 1;
+  image-rendering: pixelated;
+  background-color: red;
+  border-radius: 40% 40% 50% 50% / 50% 50% 40% 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 0 2px rgba(255,0,0,0.5);
+}
+
+.logo-badge img {
+  width: 12px;
+  height: auto;
+  image-rendering: pixelated;
+}
+
+.robot .arms {
+  width: 60px;
+  height: 10px;
+  background: #999;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.robot .legs {
+  width: 30px;
+  height: 10px;
+  background: #666;
+  margin: 4px auto 0;
+  border-radius: 5px;
+}
+
+#usbot-speech {
+  position: absolute;
+  top: -10px;
+  left: 70px;
+  max-width: 200px;
+  background: #fff;
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: monospace;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+  animation: fadeIn 0.4s ease;
+}
+
+#usbot-zzz {
+  position: absolute;
+  left: 100%;
+  top: -8px;
+  font-family: monospace;
+  font-size: 14px;
+  color: gray;
+  animation: zzz-float 1.2s ease-in-out infinite;
+}
+@keyframes zzz-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.usbot-idle {
+  animation: breathe 3s ease-in-out infinite;
+}
+@keyframes breathe {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-4px); }
+}
+
+.usbot-jump {
+  animation: jump 0.4s ease;
+}
+@keyframes jump {
+  0%   { transform: scale(1.5) translateY(0); }
+  30%  { transform: scale(1.5) translateY(-20px); }
+  100% { transform: scale(1.5) translateY(0); }
+}
+
+@keyframes blinkBar {
+  0%, 100% { height: 6px; opacity: 1; }
+  50% { height: 1px; opacity: 0.6; }
+}
+.robot .eyes.blink {
+  animation: blinkBar 0.2s ease;
+}
+
+.robot.usbot-sad .head {
+  background: #77f;
+}
+
+.robot.usbot-sad .eyes::before,
+.robot.usbot-sad .eyes::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 6px;
+  background: #33f;
+  top: 6px;
+  border-radius: 2px;
+  opacity: 0.9;
+  animation: tear-drop 3s ease-in-out infinite;
+}
+
+.robot.usbot-sad .eyes::before {
+  left: 6px;
+}
+.robot.usbot-sad .eyes::after {
+  left: 20px;
+}
+
+@keyframes tear-drop {
+  0%   { transform: translateY(0); opacity: 0.9; }
+  20%  { transform: translateY(6px); opacity: 0.8; }
+  40%  { transform: translateY(12px); opacity: 0.6; }
+  60%  { transform: translateY(18px); opacity: 0.4; }
+  80%  { transform: translateY(24px); opacity: 0.2; }
+  100% { transform: translateY(30px); opacity: 0; }
+}
+
+.robot.usbot-happy .arms {
+  animation: clap 0.4s ease-in-out infinite;
+}
+
+.robot.usbot-anxious .logo-heart img {
+  animation: heartbeat 0.6s ease-in-out infinite;
+}
+
+@keyframes softbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.5); }
+}
+
+@keyframes clap {
+  0%, 100% { transform: scaleX(1); }
+  50%      { transform: scaleX(1.3); }
+}
+
+@keyframes hug {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.1); }
+}
+#usbot-speech.breathing {
+  animation: speech-breathe 3s ease-in-out infinite;
+}
+
+@keyframes speech-breathe {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.06); }
+}
+
+.us-colored {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: bold;
+}
+.us-colored .u-red {
+  color: #e53935;
+  font-weight: bold;
+}
+.us-colored .s-blue {
+  color: #1e88e5;
+  font-weight: bold;
+}

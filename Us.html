@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Us App</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: monospace; background-color: #f4f4f4; }
+    header { text-align: center; padding: 20px; background-color: #fff; }
+    header img { width: 80px; image-rendering: pixelated; }
+    .screen { display: none; padding: 20px; }
+    .active { display: block; }
+    input, select, button, textarea {
+      font-family: monospace;
+      padding: 10px;
+      margin: 5px 0;
+      width: 100%;
+      font-size: 14px;
+    }
+    .footer { display: none; position: fixed; bottom: 0; width: 100%; background-color: #ccc; }
+    .footer.active { display: flex; }
+    .footer button {
+      flex: 1;
+      border: none;
+      padding: 15px;
+      background: #eee;
+      cursor: pointer;
+    }
+    .us-list button, .emotion-selector button { display: block; margin: 10px 0; }
+    .emotion-A { background-color: #dcefff; }
+    .emotion-B { background-color: #ffe4ef; }
+    .emotion-C { background-color: #fff5d2; }
+    .chat-box, .feed {
+      border: 1px solid #aaa;
+      padding: 10px;
+      height: 200px;
+      overflow-y: scroll;
+      background: #fff;
+    }
+  </style>
+  <link rel="stylesheet" href="UsBot/usbot.css" />
+  <script type="module" src="UsBot/usbot.js"></script>
+</head>
+<body>
+  <header id="mainHeader" style="display: none; position: relative;">
+    <img src="Us.png" alt="Us Logo">
+    <h2>Us is many U<br>U belong to Us</h2>
+    <button id="logoutBtn" type="button" style="position: fixed; top: 18px; right: 18px; padding: 0 12px; height: 32px; background: #f66; color: #fff; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; line-height: 32px; white-space: nowrap; z-index: 1001; min-width: unset; width: auto;">Log_Out</button>
+  </header>
+  <div class="screen active" id="loginScreen">
+    <div style="text-align:center; margin-bottom: 20px;">
+      <img src="Us.png" alt="Us Logo" style="width:100px; image-rendering:pixelated;">
+    </div>
+    <input type="number" placeholder="Age" id="age">
+    <select id="gender">
+      <option value="">Gender</option>
+      <option>Male</option>
+      <option>Female</option>
+    </select>
+    <select id="mbti">
+      <option value="">MBTI</option>
+      <option>INTJ</option><option>INTP</option><option>ENTJ</option><option>ENTP</option>
+      <option>INFJ</option><option>INFP</option><option>ENFJ</option><option>ENFP</option>
+      <option>ISTJ</option><option>ISFJ</option><option>ESTJ</option><option>ESFJ</option>
+      <option>ISTP</option><option>ISFP</option><option>ESTP</option><option>ESFP</option>
+    </select>
+    <input type="text" placeholder="Occupation (Optional)" id="job">
+    <button type="button" onclick="enterApp()">Enter</button>
+  </div>
+  <div class="screen" id="findScreen">
+    <h3>Create a Us</h3>
+    <input type="text" placeholder="New Us Name" id="customUsName">
+    <button type="button" onclick="createCustomUs()">Create</button>
+    <h3>Recommended Us:</h3>
+    <div class="us-list" id="usList"></div>
+    <h3>Your Created Us:</h3>
+    <div class="us-list" id="customUsList"></div>
+  </div>
+  <div class="screen" id="seeScreen">
+    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+      <div style="flex: 1; min-width: 300px; border-right: 1px solid #ccc; padding-right: 10px;">
+        <h3>Post Your Emotion</h3>
+        <div class="emotion-selector">
+          <button type="button" onclick="setEmotion('A')">😭 Sad/Lonely</button>
+          <button type="button" onclick="setEmotion('B')">😎 Happy/Driven</button>
+          <button type="button" onclick="setEmotion('C')">😟 Anxious/Confused</button>
+        </div>
+        <textarea id="emotionText" rows="4" placeholder="Say something..."></textarea>
+        <input type="file">
+        <button type="button" onclick="chooseUsToPost()">Next → Choose Us to Post</button>
+        <select id="joinedUsSelect" style="display:none; margin-top:10px;"></select>
+      </div>
+      <div style="flex: 2; min-width: 400px;">
+        <h3>See Others' Emotions</h3>
+        <div style="margin-bottom:10px;">
+          <label for="filterUs"><b>Filter by Us:</b></label>
+          <select id="filterUs" onchange="loadEmotionFeed()">
+            <option value="">-- All --</option>
+          </select>
+        </div>
+        <div class="feed" id="emotionFeed" style="height:auto; max-height: 500px; overflow-y: auto;"></div>
+      </div>
+    </div>
+  </div>
+  <div class="screen" id="helpScreen">
+    <h3>Talk to UsBot</h3>
+    <div class="chat-box" id="chatBox"></div>
+    <input type="text" id="chatInput" placeholder="Type your feeling...">
+    <button onclick="sendChat()">Send</button>
+  </div>
+  <div class="footer" id="mainFooter">
+    <button type="button" onclick="switchScreen('findScreen')">Find Us</button>
+    <button type="button" onclick="switchScreen('seeScreen')">See U</button>
+    <button type="button" onclick="switchScreen('helpScreen')">Help U</button>
+  </div>
+<script>
+let joinedUs = [];
+let customUsList = [];
+let isLoggedIn = false;
+function saveUserInfo() {
+  const userInfo = {
+    age: document.getElementById('age').value.trim(),
+    gender: document.getElementById('gender').value.trim(),
+    mbti: document.getElementById('mbti').value.trim(),
+    job: document.getElementById('job').value.trim()
+  };
+  localStorage.setItem('us_userInfo', JSON.stringify(userInfo));
+}
+function loadUserInfo() {
+  const userInfo = JSON.parse(localStorage.getItem('us_userInfo') || '{}');
+  document.getElementById('age').value = userInfo.age || '';
+  document.getElementById('gender').value = userInfo.gender || '';
+  document.getElementById('mbti').value = userInfo.mbti || '';
+  document.getElementById('job').value = userInfo.job || '';
+}
+function enterApp() {
+  logEvent('open_app', new Date().toISOString());
+  const age = document.getElementById('age').value.trim();
+  const gender = document.getElementById('gender').value.trim();
+  const mbti = document.getElementById('mbti').value.trim();
+  if (!age || !gender || !mbti) {
+    alert('Please complete Age, Gender, and MBTI before entering.');
+    return;
+  }
+  isLoggedIn = true;
+  localStorage.setItem('us_isLoggedIn', '1');
+  saveUserInfo();
+  document.getElementById('loginScreen').classList.remove('active');
+  document.getElementById('mainFooter').classList.add('active');
+  document.getElementById('mainHeader').style.display = 'block';
+  switchScreen('findScreen');
+  loadUsList();
+  if (window.setUsBotSleep) window.setUsBotSleep(false);
+}
+function loadUsList() {
+  const age = parseInt(document.getElementById('age').value);
+  const gender = document.getElementById('gender').value;
+  const mbti = document.getElementById('mbti').value;
+  const job = document.getElementById('job').value;
+  let list = '';
+  if (job) list += `<button type="button" onclick="enterUs('${job}Us')">${job}Us</button>`;
+  if (!isNaN(age)) {
+    if (age < 18) {
+      list += `<button type="button" onclick="enterUs('TeenagerUs')">TeenagerUs</button>`;
+      if (gender === 'Male') list += `<button type="button" onclick="enterUs('BoyUs')">BoyUs</button>`;
+      if (gender === 'Female') list += `<button type="button" onclick="enterUs('GirlUs')">GirlUs</button>`;
+    } else {
+      list += `<button type="button" onclick="enterUs('AdultUs')">AdultUs</button>`;
+      if (gender === 'Male') list += `<button type="button" onclick="enterUs('ManUs')">ManUs</button>`;
+      if (gender === 'Female') list += `<button type="button" onclick="enterUs('WomanUs')">WomanUs</button>`;
+    }
+  }
+  if (mbti) list += `<button type="button" onclick="enterUs('${mbti}Us')">${mbti}Us</button>`;
+  document.getElementById('usList').innerHTML = list;
+  let customListHTML = '';
+  for (const name of customUsList) {
+    customListHTML += `<button type="button" onclick="enterUs('${name}')">${name}</button>`;
+  }
+  document.getElementById('customUsList').innerHTML = customListHTML;
+}
+function createCustomUs() {
+  const input = document.getElementById('customUsName').value.trim();
+  if (input) {
+    const name = input + 'Us';
+    if (!customUsList.includes(name)) {
+      customUsList.push(name);
+      loadUsList();
+      document.getElementById('customUsName').value = '';
+      alert('Created Us: ' + name);
+    } else {
+      alert('This Us already exists: ' + name);
+    }
+  }
+}
+function switchScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  if (id === 'seeScreen') loadEmotionFeed();
+}
+function saveJoinedUs() {
+  localStorage.setItem('us_joinedUs', JSON.stringify(joinedUs));
+}
+function loadJoinedUs() {
+  joinedUs = JSON.parse(localStorage.getItem('us_joinedUs') || '[]');
+  updateJoinedUsSelect();
+  updateFilterUsOptions();
+}
+function enterUs(name) {
+  alert("Entering chatroom: " + name + " (shared document emulation)");
+  logEvent('join_us', name);
+  if (!joinedUs.includes(name)) {
+    joinedUs.push(name);
+    saveJoinedUs();
+    updateJoinedUsSelect();
+    updateFilterUsOptions();
+  }
+}
+function setEmotion(type) {
+  const see = document.getElementById('seeScreen');
+  see.classList.remove('emotion-A', 'emotion-B', 'emotion-C');
+  see.classList.add('emotion-' + type);
+}
+function chooseUsToPost() {
+  const select = document.getElementById('joinedUsSelect');
+  const see = document.getElementById('seeScreen');
+  if (joinedUs.length === 0) {
+    alert('You must join a Us before posting.');
+    return;
+  }
+  let moodType = 'A';
+  if (see.classList.contains('emotion-B')) moodType = 'B';
+  else if (see.classList.contains('emotion-C')) moodType = 'C';
+  let options = '<option value="">Select Us to post</option>';
+  for (const name of joinedUs) {
+    options += `<option value="${name}">${name}</option>`;
+  }
+  select.innerHTML = options;
+  select.style.display = 'block';
+  let existingBtn = document.getElementById('confirmPostBtn');
+  if (!existingBtn) {
+    const btn = document.createElement('button');
+    btn.innerText = '✅ Confirm Post';
+    btn.id = 'confirmPostBtn';
+    btn.style.marginTop = '10px';
+    btn.onclick = () => {
+      const selectedUs = select.value;
+      const text = document.getElementById('emotionText').value.trim();
+      if (!selectedUs) {
+        alert('Please select a Us to post into.');
+        return;
+      }
+      if (!text) {
+        alert('Please write something first.');
+        return;
+      }
+      let buttonLabel = moodType === 'A' ? '🫂 Hug' : moodType === 'B' ? '🖐 High-five' : '💪 Encourage';
+      const postData = {
+        id: Date.now(),
+        mood: moodType,
+        us: selectedUs,
+        content: text,
+        label: buttonLabel,
+        feedbackCount: 0,
+        comments: [],
+        time: new Date().toISOString()
+      };
+      let postList = JSON.parse(localStorage.getItem('postList') || '[]');
+      logEvent('post_emotion', JSON.stringify({ us: selectedUs, mood: moodType }));
+      reactToEmotion(moodType);
+      postList.push(postData);
+      localStorage.setItem('postList', JSON.stringify(postList));
+      document.getElementById('emotionText').value = '';
+      select.style.display = 'none';
+      select.value = '';
+      btn.remove();
+      alert('✅ Post published!');
+      loadEmotionFeed();
+    };
+    select.parentNode.appendChild(btn);
+  }
+}
+function updateJoinedUsSelect() {
+  const select = document.getElementById('joinedUsSelect');
+  let options = '';
+  for (const name of joinedUs) {
+    options += `<option value="${name}">${name}</option>`;
+  }
+  select.innerHTML = options;
+}
+function loadEmotionFeed() {
+  let postList = JSON.parse(localStorage.getItem('postList') || '[]');
+  const filter = document.getElementById('filterUs')?.value || '';
+  if (filter) {
+    postList = postList.filter(p => p.us === filter);
+  }
+  postList.sort((a, b) => {
+    const tA = new Date(a.time);
+    const tB = new Date(b.time);
+    if (isNaN(tA)) return 1;
+    if (isNaN(tB)) return -1;
+    return tB - tA;
+  });
+  let html = '';
+  for (const post of postList) {
+    let emoji = '😢', bgClass = 'emotion-A';
+    if (post.mood === 'B') {
+      emoji = '😊';
+      bgClass = 'emotion-B';
+    } else if (post.mood === 'C') {
+      emoji = '😟';
+      bgClass = 'emotion-C';
+    }
+    const commentsHTML = (post.comments || []).map(c => {
+      return `<div style="margin-top:5px;"><small>🕒 ${new Date(c.time).toLocaleString()}</small><br>💬 ${c.text}</div>`;
+    }).join('');
+    html += `<div class="${bgClass}" style='margin:10px 0;border:1px solid #000;padding:10px; border-radius:6px;'>
+      <p><b>${emoji} To ${post.us}:</b> ${post.content}<br>
+      <small>🕒 ${new Date(post.time).toLocaleString()}</small></p>
+      <button type="button" onclick="sendFeedback(${post.id})">${post.label} (<span id="feedback-${post.id}">${post.feedbackCount}</span>)</button>
+      <div style='display:flex; gap:5px; margin-top:10px;'>
+        <input type='text' placeholder='Write a comment...' style='flex:4; padding:6px;'>
+        <button onclick="postComment(${post.id}, this)" style='flex:1; padding:6px;'>Post</button>
+      </div>
+      <div style="margin-top:10px;">${commentsHTML}</div>
+    </div>`;
+  }
+  document.getElementById('emotionFeed').innerHTML = html;
+  updateFilterUsOptions();
+}
+function updateFilterUsOptions() {
+  const filter = document.getElementById('filterUs');
+  if (!filter) return;
+  const currentValue = filter.value;
+  let options = '<option value="">-- All --</option>';
+  for (const name of joinedUs) {
+    const selected = currentValue === name ? 'selected' : '';
+    options += `<option value="${name}" ${selected}>${name}</option>`;
+  }
+  filter.innerHTML = options;
+  filter.value = currentValue;
+}
+function sendFeedback(postId) {
+  const postList = JSON.parse(localStorage.getItem('postList') || '[]');
+  const index = postList.findIndex(p => p.id === postId);
+  if (index !== -1) {
+    postList[index].feedbackCount += 1;
+    logEvent('react_post', postId.toString());
+    localStorage.setItem('postList', JSON.stringify(postList));
+    document.getElementById(`feedback-${postId}`).innerText = postList[index].feedbackCount;
+    if (window.usbotShowThanks) window.usbotShowThanks();
+    loadEmotionFeed();
+  }
+}
+function postComment(postId, btn) {
+  const input = btn.previousElementSibling;
+  const text = input.value.trim();
+  if (!text) return;
+  const postList = JSON.parse(localStorage.getItem('postList') || '[]');
+  const index = postList.findIndex(p => p.id === postId);
+  if (index !== -1) {
+    const comment = {
+      text: text,
+      time: new Date().toISOString()
+    };
+    postList[index].comments = [comment, ...(postList[index].comments || [])];
+    logEvent('comment_post', postId.toString());
+    localStorage.setItem('postList', JSON.stringify(postList));
+    if (window.usbotShowThanks) window.usbotShowThanks();
+    loadEmotionFeed();
+  }
+}
+async function sendChat() {
+  const box = document.getElementById('chatBox');
+  const input = document.getElementById('chatInput');
+  const userMsg = input.value.trim();
+  if (!userMsg) return;
+  box.innerHTML += `<div><b>You:</b> ${userMsg}</div>`;
+  try {
+    const response = await fetch("http://localhost:3000/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message: userMsg })
+    });
+    const data = await response.json();
+    const reply = data.reply || "⚠️ AI did not return content";
+    const isEcho = reply.includes("Status code") || reply.includes("Echo") || reply.includes("Network error");
+    if (isEcho) {
+      box.innerHTML += `<div style="background:#fff8c6; color:#b00; padding:10px; border-radius:8px;">
+        <b>⚠️ UsBot (Echo mode):</b><br>${reply}
+      </div>`;
+    } else {
+      box.innerHTML += `<div><b>🤖 UsBot:</b> ${reply}</div>`;
+    }
+  } catch (err) {
+    box.innerHTML += `<div style="background:#fdd; color:#900; padding:10px;">
+      <b>❌ Cannot connect to server：</b> ${err.message}
+    </div>`;
+  }
+  box.scrollTop = box.scrollHeight;
+  input.value = '';
+}
+function logEvent(event, target = '') {
+  fetch('http://localhost:4000/log', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      userId: 'testUser001',
+      timestamp: new Date().toISOString(),
+      event: event,
+      target: target
+    })
+  });
+}
+function logout() {
+  isLoggedIn = false;
+  localStorage.removeItem('us_isLoggedIn');
+  localStorage.removeItem('us_userInfo');
+  localStorage.removeItem('us_joinedUs');
+  document.getElementById('mainHeader').style.display = 'none';
+  document.getElementById('mainFooter').classList.remove('active');
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('loginScreen').classList.add('active');
+  document.getElementById('age').value = '';
+  document.getElementById('gender').value = '';
+  document.getElementById('mbti').value = '';
+  document.getElementById('job').value = '';
+  joinedUs = [];
+  updateJoinedUsSelect();
+  updateFilterUsOptions();
+  fetch('http://localhost:4000/log', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      userId: 'testUser001',
+      timestamp: new Date().toISOString(),
+      event: 'close_app',
+      target: new Date().toISOString()
+    })
+  });
+  fetch('http://localhost:4000/flush');
+  if (window.setUsBotSleep) window.setUsBotSleep(true);
+}
+document.getElementById('logoutBtn').onclick = logout;
+window.addEventListener('DOMContentLoaded', () => {
+  const todayDateStr = new Date().toISOString().split('T')[0];
+  const lastLoginDate = localStorage.getItem('us_lastLoginDate') || '';
+  const wasLoggedIn = localStorage.getItem('us_isLoggedIn') === '1';
+  if (wasLoggedIn) {
+    isLoggedIn = true;
+    if (lastLoginDate !== todayDateStr) {
+      logEvent('open_app', new Date().toISOString());
+      localStorage.setItem('us_lastLoginDate', todayDateStr);
+    }
+    loadUserInfo();
+    loadJoinedUs();
+    document.getElementById('loginScreen').classList.remove('active');
+    document.getElementById('mainFooter').classList.add('active');
+    document.getElementById('mainHeader').style.display = 'block';
+    switchScreen('findScreen');
+    loadUsList();
+    if (window.setUsBotSleep) window.setUsBotSleep(false);
+  } else {
+    isLoggedIn = false;
+    document.getElementById('mainHeader').style.display = 'none';
+    document.getElementById('mainFooter').classList.remove('active');
+    document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+    document.getElementById('loginScreen').classList.add('active');
+    loadUserInfo();
+    joinedUs = [];
+    updateJoinedUsSelect();
+    updateFilterUsOptions();
+    if (window.setUsBotSleep) window.setUsBotSleep(true);
+  }
+});
+</script>
+</body>
+</html>

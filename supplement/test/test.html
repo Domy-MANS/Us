@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Us App (Pixel Style)</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: monospace;
+    }
+
+    body {
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    header,
+    footer {
+      background: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .screen {
+      display: none;
+      padding: 20px;
+    }
+
+    .active {
+      display: block;
+    }
+
+    .input-box,
+    select,
+    button,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+    }
+
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      background: #ddd;
+    }
+
+    .bottom-nav button {
+      flex: 1;
+      padding: 15px;
+      font-weight: bold;
+      border: none;
+    }
+
+    .emotion-A {
+      background-color: #d0ebff;
+    }
+
+    .emotion-B {
+      background-color: #ffd6e0;
+    }
+
+    .emotion-C {
+      background-color: #fff4cc;
+    }
+
+    .pixel {
+      image-rendering: pixelated;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="icon.png" class="pixel" alt="Us Icon" width="64" /><br>
+    <p>1. Us is many U<br>2. U belong to Us</p>
+  </header>
+
+  <div id="loginScreen" class="screen active">
+    <h2>Enter Your Info</h2>
+    <input class="input-box" type="number" id="age" placeholder="Age" />
+    <select class="input-box" id="gender">
+      <option value="">Select Gender</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    <input class="input-box" type="text" id="mbti" placeholder="MBTI" />
+    <input class="input-box" type="text" id="occupation" placeholder="Occupation" />
+    <button onclick="enterApp()">Enter</button>
+  </div>
+
+  <div id="findUs" class="screen">
+    <h2>Find Us</h2>
+    <button onclick="createUs()">+ Create Us</button>
+    <div id="usList"></div>
+  </div>
+
+  <div id="seeU" class="screen">
+    <h2>Post Your Emotion</h2>
+    <select id="emotionSelect" onchange="updateEmotionStyle()">
+      <option value="">Select Emotion</option>
+      <option value="A">😭 Sad/Lonely</option>
+      <option value="B">😊 Happy/Motivated</option>
+      <option value="C">😟 Anxious/Lost</option>
+    </select>
+    <textarea id="emotionText" placeholder="Write something..."></textarea>
+    <input type="file" id="emotionImage" />
+    <button onclick="goToUsSelection()">Next</button>
+  </div>
+
+  <div id="postToUs" class="screen">
+    <h2>Select a Us to Post</h2>
+    <div id="joinedUsList"></div>
+  </div>
+
+  <div id="helpU" class="screen">
+    <h2>AI Emotion Chatbot</h2>
+    <textarea id="aiInput" placeholder="Say something..."></textarea>
+    <button onclick="chatAI()">Send</button>
+    <div id="aiResponse"></div>
+  </div>
+
+  <footer class="bottom-nav">
+    <button onclick="switchScreen('findUs')">Find Us</button>
+    <button onclick="switchScreen('seeU')">See U</button>
+    <button onclick="switchScreen('helpU')">Help U</button>
+  </footer>
+
+  <script>
+    function switchScreen(id) {
+      document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+
+    function enterApp() {
+      const age = parseInt(document.getElementById('age').value);
+      const gender = document.getElementById('gender').value;
+      let userGroup = '';
+
+      if (age < 18) {
+        userGroup = (gender === 'female') ? 'GirlUs' : 'BoyUs';
+      } else {
+        userGroup = (gender === 'female') ? 'WomanUs' : 'ManUs';
+      }
+
+      alert(`Welcome to ${userGroup}`);
+      switchScreen('findUs');
+    }
+
+    function createUs() {
+      alert("Create Us (placeholder)");
+    }
+
+    function updateEmotionStyle() {
+      const emotion = document.getElementById('emotionSelect').value;
+      const seeU = document.getElementById('seeU');
+      seeU.classList.remove('emotion-A', 'emotion-B', 'emotion-C');
+      if (emotion === 'A') seeU.classList.add('emotion-A');
+      else if (emotion === 'B') seeU.classList.add('emotion-B');
+      else if (emotion === 'C') seeU.classList.add('emotion-C');
+    }
+
+    function goToUsSelection() {
+      switchScreen('postToUs');
+      document.getElementById('joinedUsList').innerHTML = '<button onclick="postEmotion()">Post to Your Us</button>';
+    }
+
+    function postEmotion() {
+      alert("Emotion posted to selected Us (simulated)");
+      switchScreen('seeU');
+    }
+
+    function chatAI() {
+      const input = document.getElementById('aiInput').value;
+      document.getElementById('aiResponse').innerText = `🤖: Simulated response to "${input}"`;
+    }
+  </script>
+</body>
+
+</html>
