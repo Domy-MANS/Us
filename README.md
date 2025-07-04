@@ -2,10 +2,16 @@
 
 <div align="center">
   <img src="Us.png" alt="Us Logo" width="200"/>
-  
+
   **Us is many U, U belong to Us**
-  
+
   *一个温暖的情感社交平台，让每个"你"都能找到属于自己的"我们"*
+
+  [![GitHub stars](https://img.shields.io/github/stars/Domy-MANS/Us?style=social)](https://github.com/Domy-MANS/Us/stargazers)
+  [![GitHub forks](https://img.shields.io/github/forks/Domy-MANS/Us?style=social)](https://github.com/Domy-MANS/Us/network)
+  [![GitHub license](https://img.shields.io/github/license/Domy-MANS/Us)](https://github.com/Domy-MANS/Us/blob/main/LICENSE)
+
+  [🌐 在线体验](https://domy-mans.github.io/Us/Us.html) | [📖 使用指南](#-使用指南) | [🤝 贡献代码](#-贡献指南)
 </div>
 
 ## 🌟 项目理念
