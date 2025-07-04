@@ -49,10 +49,17 @@
 - **响应式设计** - 适配各种设备
 - **实时交互** - 流畅的用户体验
 
-### 后端服务
-- **AI 聊天服务** (`us-ai-server/`) - 基于 Ollama 的本地 AI
-- **日志服务** (`us-log-server.js`) - 用户行为追踪
-- **数据分析** - Python 脚本生成统计图表
+### 核心服务模块
+Us项目包含6个主要功能模块：
+
+| 模块 | 文件 | 功能描述 |
+|------|------|----------|
+| 🌐 **本地服务器** | `npx http-server` | 提供Web服务，访问Us.html主界面 |
+| 📝 **用户日志** | `us-log-server.js` | 记录用户行为数据到real_data文件夹 |
+| 🤖 **AI聊天服务** | `us-ai-server/server.js` | 基于Ollama的本地AI聊天功能 |
+| 🎲 **假数据生成** | `generate-fake-logs.js` | 生成测试数据到fake_data文件夹 |
+| 📊 **真实数据分析** | `analyze-log.js` | 分析real_data，生成用户统计报告 |
+| 📈 **假数据分析** | `analyze-fake-log.js` | 分析fake_data，生成测试统计报告 |
 
 ### AI 模型
 - **Qwen2:1.5b** - 中文对话优化
@@ -101,9 +108,10 @@ cd Us
 ```bash
 cd us-ai-server
 npm install
+cd ..
 ```
 
-3. **安装 Ollama 和 AI 模型**
+3. **安装 Ollama 和 AI 模型**（可选，用于AI聊天功能）
 ```bash
 # 安装 Ollama
 brew install ollama
@@ -113,18 +121,49 @@ ollama pull qwen2:1.5b
 ollama pull llama3.2:1b
 ```
 
-4. **启动服务**
-```bash
-# 启动日志服务器 (端口 4000)
-node us-log-server.js
+#### 🚀 启动服务
 
-# 启动 AI 聊天服务器 (端口 3000)
-cd us-ai-server
-node server.js
+Us项目包含多个服务，根据需要启动：
+
+| 服务 | 命令 | 端口 | 功能 |
+|------|------|------|------|
+| **本地服务器** | `npx http-server . -p 1234` | 1234 | 启动本地服务器访问Us.html |
+| **用户日志服务** | `node us-log-server.js` | 4000 | 记录用户行为到real_data |
+| **AI聊天服务** | `cd us-ai-server && node server.js` | 3000 | AI聊天功能 |
+
+#### 📊 数据分析工具
+
+| 工具 | 命令 | 功能 |
+|------|------|------|
+| **生成假数据** | `node generate-fake-logs.js` | 生成测试数据到fake_data文件夹 |
+| **分析真实数据** | `node analyze-log.js` | 分析real_data，生成统计报告 |
+| **分析假数据** | `node analyze-fake-log.js` | 分析fake_data，生成统计报告 |
+
+#### 🎯 推荐启动流程
+
+**基础使用**（仅体验界面）：
+```bash
+cd Us
+npx http-server . -p 1234
+# 浏览器访问: http://localhost:1234/Us.html
 ```
 
-5. **打开应用**
-在浏览器中打开 `Us.html` 文件
+**完整功能**（包含AI和数据记录）：
+```bash
+# 终端1: 启动本地服务器
+cd Us
+npx http-server . -p 1234
+
+# 终端2: 启动日志服务
+cd Us
+node us-log-server.js
+
+# 终端3: 启动AI服务
+cd Us/us-ai-server
+node server.js
+
+# 浏览器访问: http://localhost:1234/Us.html
+```
 
 ## 📱 使用指南
 
@@ -156,10 +195,41 @@ node server.js
 ## 📊 数据分析功能
 
 项目包含完整的数据分析系统：
-- 用户行为统计
-- 情感趋势分析
-- 群体活跃度报告
-- 可视化图表生成
+- **用户行为统计** - 记录和分析用户操作
+- **情感趋势分析** - 追踪情感状态变化
+- **群体活跃度报告** - 分析群体互动数据
+- **可视化图表生成** - 生成PNG图表和CSV/JSON报告
+
+### 数据文件结构
+```
+├── real_data/          # 真实用户数据
+│   ├── logs.json       # 用户行为日志
+│   └── *.csv          # 统计报告
+├── fake_data/          # 测试数据
+│   ├── logs_fake.json  # 模拟用户日志
+│   └── *.png          # 可视化图表
+```
+
+## 🔧 故障排除
+
+### 常见问题解决
+
+**Q: AI聊天不工作？**
+- 确保已安装Ollama：`brew install ollama`
+- 下载AI模型：`ollama pull qwen2:1.5b`
+- 检查AI服务是否启动：`cd us-ai-server && node server.js`
+
+**Q: 页面无法加载？**
+- 使用本地服务器：`npx http-server . -p 1234`
+- 访问：`http://localhost:1234/Us.html`
+
+**Q: 数据分析报错？**
+- 确保有数据文件：先运行`node generate-fake-logs.js`生成测试数据
+- 检查Python环境：数据分析需要Python 3.7+
+
+**Q: 端口被占用？**
+- 修改端口：`npx http-server . -p 8080`（使用其他端口）
+- 检查端口占用：`lsof -i :1234`
 
 ## 🤝 贡献指南
 
