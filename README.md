@@ -11,7 +11,7 @@
   [![GitHub forks](https://img.shields.io/github/forks/Domy-MANS/Us?style=social)](https://github.com/Domy-MANS/Us/network)
   [![GitHub license](https://img.shields.io/github/license/Domy-MANS/Us)](https://github.com/Domy-MANS/Us/blob/main/LICENSE)
 
-  [🌐 在线体验](https://domy-mans.github.io/Us/Us.html) | [📖 使用指南](#-使用指南) | [🤝 贡献代码](#-贡献指南)
+  [📖 使用指南](#-使用指南) | [🤝 贡献代码](#-贡献指南) | [⬇️ 下载使用](https://github.com/Domy-MANS/Us/archive/refs/heads/main.zip)
 </div>
 
 ## 🌟 项目理念
