@@ -14,6 +14,7 @@
   [![GitHub license](https://img.shields.io/github/license/Domy-MANS/Us)](https://github.com/Domy-MANS/Us/blob/main/LICENSE)
   ![Development Time](https://img.shields.io/badge/Development%20Time-%3C%201%20Week-ff69b4?style=flat-square&logo=rocket)
   ![Solo Developer](https://img.shields.io/badge/Solo%20Developer-100%25-brightgreen?style=flat-square&logo=user)
+  ![Age](https://img.shields.io/badge/Developer%20Age-16%20years%20old-orange?style=flat-square&logo=graduation-cap)
   
   [🚀 Try Online](https://domy-mans.github.io/Us/Us.html) | [🤖 AI Chat](https://domy-mans.github.io/Us/UsBot/) | [⬇️ Download](https://github.com/Domy-MANS/Us/archive/refs/heads/main.zip) | [📖 User Guide](#-user-guide)
 </div>
@@ -24,7 +25,7 @@ The name **Us** cleverly utilizes the concept of English plurals: many **U**s (y
 
 ## ⚡ Fun Fact
 
-> 🚀 **Incredible Development Speed**: The entire Us project (including frontend interface, AI chat system, data analysis, visualization charts, 6 service modules, and complete documentation) was independently completed by one person in **less than a week**!
+> 🚀 **Incredible Development Speed**: The entire Us project (including frontend interface, AI chat system, data analysis, visualization charts, 6 service modules, and complete documentation) was independently completed by a **16-year-old high school student** in **less than a week**!
 > 
 > 📅 **Development Timeline**:
 > - 🎯 Product design and architecture planning
@@ -271,10 +272,11 @@ This project uses MIT License - see [LICENSE](LICENSE) file for details
 ## 👨‍💻 Author
 
 **Domy Yu (于梓方)**
+- 🎓 **16-year-old high school student** - Young full-stack developer
 - 🚀 Project creator and independent developer
 - ⚡ Completed the entire project design, development and deployment in less than a week
 - 💡 Dedicated to connecting hearts through technology, creating warm digital communities
-- 🌟 Demonstrates comprehensive capabilities in full-stack development, AI integration and rapid prototyping
+- 🌟 Demonstrates exceptional technical talent and full-stack development capabilities beyond his age
 
 ## 🙏 Acknowledgments
 
