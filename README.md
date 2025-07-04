@@ -7,6 +7,8 @@
 
   *一个温暖的情感社交平台，让每个"你"都能找到属于自己的"我们"*
 
+  **Language**: [中文](README.md) | [English](README_EN.md)
+
   [![GitHub stars](https://img.shields.io/github/stars/Domy-MANS/Us?style=social)](https://github.com/Domy-MANS/Us/stargazers)
   [![GitHub forks](https://img.shields.io/github/forks/Domy-MANS/Us?style=social)](https://github.com/Domy-MANS/Us/network)
   [![GitHub license](https://img.shields.io/github/license/Domy-MANS/Us)](https://github.com/Domy-MANS/Us/blob/main/LICENSE)
@@ -14,7 +16,7 @@
   ![Solo Developer](https://img.shields.io/badge/Solo%20Developer-100%25-brightgreen?style=flat-square&logo=user)
   ![Age](https://img.shields.io/badge/Developer%20Age-16%20years%20old-orange?style=flat-square&logo=graduation-cap)
 
-  [🚀 在线体验](https://domy-mans.github.io/Us/Us.html) | [⬇️ 下载使用](https://github.com/Domy-MANS/Us/archive/refs/heads/main.zip) | [📖 使用指南](#-使用指南) | [🌍 English](README_EN.md)
+  [🚀 在线体验](https://domy-mans.github.io/Us/Us.html) | [⬇️ 下载使用](https://github.com/Domy-MANS/Us/archive/refs/heads/main.zip) | [📖 使用指南](#-使用指南)
 </div>
 
 ## 🌟 项目理念
