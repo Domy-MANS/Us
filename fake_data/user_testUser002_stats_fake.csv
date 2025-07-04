@@ -1,0 +1,8 @@
+userId,date,online_time,join_us,react_post,comment_post,post_emotion,mood_A,mood_B,mood_C
+testUser002,2025-06-26,0h 32m,2,8,11,7,3,0,4
+testUser002,2025-06-27,0h 42m,5,7,7,7,5,0,2
+testUser002,2025-06-28,1h 00m,7,12,9,8,2,4,2
+testUser002,2025-06-29,1h 04m,6,12,14,11,5,5,1
+testUser002,2025-06-30,1h 19m,9,16,14,12,4,7,1
+testUser002,2025-07-01,1h 28m,10,18,17,12,2,10,0
+testUser002,2025-07-02,1h 17m,9,16,16,15,3,11,1

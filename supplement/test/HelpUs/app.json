@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Us",
+    "slug": "us-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./icon/Us_rounded_corners.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./icon/Us_rounded_corners.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./icon/Us_rounded_corners.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./icon/Us_rounded_corners.png"
+    }
+  }
+} 

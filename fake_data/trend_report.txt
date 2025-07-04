@@ -1,0 +1,65 @@
+Summary:
+Users analyzed: 3
+- 3 users show increasing Mood B (happy/driven).
+- 3 users show decreasing Mood A (sad/lonely).
+- 3 users show decreasing Mood C (anxious/confused).
+- 3 users show increasing online time.
+- 3 users show increasing Join Us behavior.
+- 3 users show increasing React Post behavior.
+- 3 users show increasing Comment Post behavior.
+- 3 users show increasing Post Emotion behavior.
+------------------------------------------
+
+User testUser001:
+  Mood B (happy/driven) trend: slope=2.250, R=0.951  |  ↑
+  Mood A (sad/lonely) trend: slope=-0.071, R=-0.110  |  ↓
+  Mood C (anxious/confused) trend: slope=-0.179, R=-0.340  |  ↓
+  Online time trend: slope=8.964 (min/day), R=0.966  |  ↑
+  Join Us trend: slope=0.964, R=0.879  |  ↑
+  React Post trend: slope=1.750, R=0.979  |  ↑
+  Comment Post trend: slope=2.036, R=0.947  |  ↑
+  Post Emotion trend: slope=2.000, R=0.987  |  ↑
+    👍 Mood B (happy/driven) is increasing.
+    👍 Mood A (sad/lonely) is decreasing.
+    👍 Mood C (anxious/confused) is decreasing.
+    🕒 Online time is increasing.
+    🟢 Join Us behavior is increasing.
+    🟢 React Post behavior is increasing.
+    🟢 Comment Post behavior is increasing.
+    🟢 Post Emotion behavior is increasing.
+
+User testUser003:
+  Mood B (happy/driven) trend: slope=1.464, R=0.884  |  ↑
+  Mood A (sad/lonely) trend: slope=-0.143, R=-0.174  |  ↓
+  Mood C (anxious/confused) trend: slope=-0.250, R=-0.783  |  ↓
+  Online time trend: slope=9.786 (min/day), R=0.968  |  ↑
+  Join Us trend: slope=1.000, R=0.872  |  ↑
+  React Post trend: slope=2.036, R=0.964  |  ↑
+  Comment Post trend: slope=1.714, R=0.846  |  ↑
+  Post Emotion trend: slope=1.071, R=0.780  |  ↑
+    👍 Mood B (happy/driven) is increasing.
+    👍 Mood A (sad/lonely) is decreasing.
+    👍 Mood C (anxious/confused) is decreasing.
+    🕒 Online time is increasing.
+    🟢 Join Us behavior is increasing.
+    🟢 React Post behavior is increasing.
+    🟢 Comment Post behavior is increasing.
+    🟢 Post Emotion behavior is increasing.
+
+User testUser002:
+  Mood B (happy/driven) trend: slope=2.000, R=0.985  |  ↑
+  Mood A (sad/lonely) trend: slope=-0.143, R=-0.243  |  ↓
+  Mood C (anxious/confused) trend: slope=-0.500, R=-0.849  |  ↓
+  Online time trend: slope=8.786 (min/day), R=0.932  |  ↑
+  Join Us trend: slope=1.179, R=0.911  |  ↑
+  React Post trend: slope=1.786, R=0.920  |  ↑
+  Comment Post trend: slope=1.429, R=0.836  |  ↑
+  Post Emotion trend: slope=1.357, R=0.965  |  ↑
+    👍 Mood B (happy/driven) is increasing.
+    👍 Mood A (sad/lonely) is decreasing.
+    👍 Mood C (anxious/confused) is decreasing.
+    🕒 Online time is increasing.
+    🟢 Join Us behavior is increasing.
+    🟢 React Post behavior is increasing.
+    🟢 Comment Post behavior is increasing.
+    🟢 Post Emotion behavior is increasing.
