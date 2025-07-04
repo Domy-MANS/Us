@@ -16,7 +16,7 @@
   ![Solo Developer](https://img.shields.io/badge/Solo%20Developer-100%25-brightgreen?style=flat-square&logo=user)
   ![Age](https://img.shields.io/badge/Developer%20Age-16%20years%20old-orange?style=flat-square&logo=graduation-cap)
 
-  [🚀 立即体验](https://domy-mans.github.io/Us/Us.html) | [🤖 AI聊天](https://domy-mans.github.io/Us/UsBot/) | [⬇️ 下载使用](https://github.com/Domy-MANS/Us/archive/refs/heads/main.zip) | [📖 使用指南](#-使用指南)
+  [🚀 在线体验](https://domy-mans.github.io/Us/Us.html) | [⬇️ 下载使用](https://github.com/Domy-MANS/Us/archive/refs/heads/main.zip) | [📖 使用指南](#-使用指南) | [🌍 English](README_EN.md)
 </div>
 
 ## 🌟 项目理念
@@ -94,9 +94,10 @@ Us项目包含6个主要功能模块：
 ### 🌟 方式1：在线体验（推荐）
 > 无需下载，直接在浏览器中使用
 
-- **主页**：[https://domy-mans.github.io/Us/](https://domy-mans.github.io/Us/)
 - **Us应用**：[https://domy-mans.github.io/Us/Us.html](https://domy-mans.github.io/Us/Us.html)
-- **AI聊天**：[https://domy-mans.github.io/Us/UsBot/](https://domy-mans.github.io/Us/UsBot/)
+- **项目主页**：[https://domy-mans.github.io/Us/](https://domy-mans.github.io/Us/)
+
+*注意：在线版本的AI聊天功能需要本地Ollama服务支持*
 
 ### 📥 方式2：下载体验
 > 适合想要本地运行的用户
