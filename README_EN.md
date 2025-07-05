@@ -211,6 +211,13 @@ node server.js
 - **AI Models**: Supports Qwen2:1.5b (Chinese) and Llama3.2:1b (English)
 - **Privacy Protection**: All AI conversations are processed locally, no data uploaded
 
+#### 🎯 **AI Chat Demo**
+<div align="center">
+  <img src="UsBot/AI_demo.png" alt="UsBot AI Chat Demo" width="600"/>
+  <br>
+  <em>UsBot AI Chat Functionality Demo - Intelligent Emotional Support Conversation</em>
+</div>
+
 *Note: Complete project screenshots can be viewed in [supplement/Us_pic](./supplement/Us_pic) folder*
 
 ## 🎨 Project Features
