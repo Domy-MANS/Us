@@ -201,10 +201,16 @@ node server.js
 ### 📸 Project Screenshots
 > Project interface preview to quickly understand Us functionality
 
-- Main interface showcases group recommendation and emotional sharing features
-- UsBot provides 24/7 emotional support chat
-- Data analysis page shows detailed usage statistics
-- Supports Chinese-English bilingual switching
+- **Main Interface**: Showcases group recommendation and emotional sharing features
+- **UsBot AI Chat**: Provides 24/7 emotional support conversation (requires local Ollama)
+- **Data Analysis Page**: Shows detailed usage statistics and visualization charts
+- **Multi-language Support**: Chinese-English bilingual intelligent switching
+
+### 🤖 **AI Functionality Explanation**
+- **Online Experience**: You can see the AI chat interface and interaction design
+- **Full Functionality**: Requires local installation of Ollama and AI models
+- **AI Models**: Supports Qwen2:1.5b (Chinese) and Llama3.2:1b (English)
+- **Privacy Protection**: All AI conversations are processed locally, no data uploaded
 
 *Note: Complete project screenshots can be viewed in [supplement/Us_pic](./supplement/Us_pic) folder*
 
