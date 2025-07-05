@@ -237,6 +237,22 @@ node server.js
 - **群体活跃度报告** - 分析群体互动数据
 - **可视化图表生成** - 生成PNG图表和CSV/JSON报告
 
+### 📈 **数据可视化演示**
+
+#### 🔍 **综合趋势分析**
+<div align="center">
+  <img src="fake_data/all_trends_summary.png" alt="综合趋势分析" width="700"/>
+  <br>
+  <em>用户情感趋势和行为模式综合分析</em>
+</div>
+
+#### 📋 **数据仪表板**
+<div align="center">
+  <img src="fake_data/dashboard_summary.png" alt="数据仪表板" width="700"/>
+  <br>
+  <em>用户活跃度和情感分布统计仪表板</em>
+</div>
+
 ### 数据文件结构
 ```
 ├── real_data/          # 真实用户数据

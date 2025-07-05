@@ -237,6 +237,22 @@ Project includes complete data analysis system:
 - **Group Activity Reports** - Analyze group interaction data
 - **Visualization Chart Generation** - Generate PNG charts and CSV/JSON reports
 
+### 📈 **Data Visualization Demo**
+
+#### 🔍 **Comprehensive Trend Analysis**
+<div align="center">
+  <img src="fake_data/all_trends_summary.png" alt="Comprehensive Trend Analysis" width="700"/>
+  <br>
+  <em>Comprehensive analysis of user emotional trends and behavior patterns</em>
+</div>
+
+#### 📋 **Data Dashboard**
+<div align="center">
+  <img src="fake_data/dashboard_summary.png" alt="Data Dashboard" width="700"/>
+  <br>
+  <em>User activity and emotional distribution statistics dashboard</em>
+</div>
+
 ### Data File Structure
 ```
 ├── real_data/          # Real user data
