@@ -94,8 +94,7 @@ Us project includes 6 main functional modules:
 ### 🌟 Method 1: Online Experience (Recommended)
 > No download required, use directly in browser
 
-- **Us App**: [https://domy-mans.github.io/Us/Us.html](https://domy-mans.github.io/Us/Us.html)
-- **Project Homepage**: [https://domy-mans.github.io/Us/](https://domy-mans.github.io/Us/)
+**🚀 Try Now**: [https://domy-mans.github.io/Us/Us.html](https://domy-mans.github.io/Us/Us.html)
 
 *Note: AI chat functionality in online version requires local Ollama service support*
 

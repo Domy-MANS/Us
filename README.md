@@ -94,8 +94,7 @@ Us项目包含6个主要功能模块：
 ### 🌟 方式1：在线体验（推荐）
 > 无需下载，直接在浏览器中使用
 
-- **Us应用**：[https://domy-mans.github.io/Us/Us.html](https://domy-mans.github.io/Us/Us.html)
-- **项目主页**：[https://domy-mans.github.io/Us/](https://domy-mans.github.io/Us/)
+**🚀 立即体验**：[https://domy-mans.github.io/Us/Us.html](https://domy-mans.github.io/Us/Us.html)
 
 *注意：在线版本的AI聊天功能需要本地Ollama服务支持*
 
