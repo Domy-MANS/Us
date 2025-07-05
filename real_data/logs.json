@@ -8278,5 +8278,29 @@
     "timestamp": "2025-07-04T07:23:01.016Z",
     "event": "post_emotion",
     "target": "{\"us\":\"INTPUs\",\"mood\":\"A\"}"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-04T08:59:38.813Z",
+    "event": "react_post",
+    "target": "1751613781015"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-04T08:59:45.429Z",
+    "event": "react_post",
+    "target": "1751613781015"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-04T09:02:07.877Z",
+    "event": "react_post",
+    "target": "1751613781015"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-04T09:02:57.593Z",
+    "event": "open_app",
+    "target": "2025-07-04T09:02:57.593Z"
   }
 ]
