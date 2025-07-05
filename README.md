@@ -211,6 +211,13 @@ node server.js
 - **AI模型**：支持Qwen2:1.5b（中文）和Llama3.2:1b（英文）
 - **隐私保护**：所有AI对话都在本地处理，不上传任何数据
 
+#### 🎯 **AI聊天演示**
+<div align="center">
+  <img src="UsBot/AI_demo.png" alt="UsBot AI聊天演示" width="600"/>
+  <br>
+  <em>UsBot AI聊天功能演示 - 智能情感支持对话</em>
+</div>
+
 *注：完整的项目截图可在 [supplement/Us_pic](./supplement/Us_pic) 文件夹中查看*
 
 ## 🎨 项目特色
