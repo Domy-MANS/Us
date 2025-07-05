@@ -220,6 +220,26 @@ node server.js
 
 *Note: Complete project screenshots can be viewed in [supplement/Us_pic](./supplement/Us_pic) folder*
 
+## 📚 Academic Research
+
+### 📄 **Research Paper**
+This project is based on in-depth academic research exploring how self-built emotional support communities impact users' emotions and well-being.
+
+**Paper Title**: *How do self-built emotional support communities impact users' emotions and well-being*
+
+- 📖 [View Paper (PDF)](supplement/Us_paper/How%20do%20self-built%20emotional%20support%20communities%20impact%20users%E2%80%99%20emotions%20and%20well-being.pdf)
+- 📝 [View Paper (Word)](supplement/Us_paper/How%20do%20self-built%20emotional%20support%20communities%20impact%20users%E2%80%99%20emotions%20and%20well-being.docx)
+
+### 🎨 **Project Poster**
+<div align="center">
+  <img src="supplement/Us_poster/Us-Poster.png" alt="Us Project Research Poster" width="600"/>
+  <br>
+  <em>Us Project Academic Research Poster</em>
+</div>
+
+- 🖼️ [Download Poster (PNG)](supplement/Us_poster/Us-Poster.png)
+- 📄 [Download Poster (PDF)](supplement/Us_poster/Us_Poster.pdf)
+
 ## 🎨 Project Features
 
 - **🔒 Privacy Protection** - Local AI model, no data upload

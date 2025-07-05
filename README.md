@@ -220,6 +220,26 @@ node server.js
 
 *注：完整的项目截图可在 [supplement/Us_pic](./supplement/Us_pic) 文件夹中查看*
 
+## 📚 学术研究
+
+### 📄 **研究论文**
+本项目基于深入的学术研究，探讨自建情感支持社区对用户情感和幸福感的影响。
+
+**论文标题**：*How do self-built emotional support communities impact users' emotions and well-being*
+
+- 📖 [查看论文 (PDF)](supplement/Us_paper/How%20do%20self-built%20emotional%20support%20communities%20impact%20users%E2%80%99%20emotions%20and%20well-being.pdf)
+- 📝 [查看论文 (Word)](supplement/Us_paper/How%20do%20self-built%20emotional%20support%20communities%20impact%20users%E2%80%99%20emotions%20and%20well-being.docx)
+
+### 🎨 **项目海报**
+<div align="center">
+  <img src="supplement/Us_poster/Us-Poster.png" alt="Us项目研究海报" width="600"/>
+  <br>
+  <em>Us项目学术研究海报展示</em>
+</div>
+
+- 🖼️ [下载海报 (PNG)](supplement/Us_poster/Us-Poster.png)
+- 📄 [下载海报 (PDF)](supplement/Us_poster/Us_Poster.pdf)
+
 ## 🎨 项目特色
 
 - **🔒 隐私保护** - 本地 AI 模型，数据不上传
