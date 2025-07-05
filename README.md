@@ -200,10 +200,26 @@ node server.js
 ### 📸 项目截图
 > 项目界面预览，让你快速了解Us的功能
 
-- **主界面**：展示群体推荐和情感分享功能
-- **UsBot AI聊天**：提供24/7情感支持对话（需本地Ollama）
-- **数据分析页面**：显示详细的使用统计和可视化图表
-- **多语言支持**：中英文双语智能切换
+#### 🔐 **用户登录界面**
+<div align="center">
+  <img src="supplement/Us_pic/login.png" alt="用户登录界面" width="500"/>
+  <br>
+  <em>简洁的用户信息注册界面，收集MBTI、年龄等个性化信息</em>
+</div>
+
+#### 🎯 **FindUs - 群体推荐功能**
+<div align="center">
+  <img src="supplement/Us_pic/FindUs.png" alt="FindUs群体推荐" width="600"/>
+  <br>
+  <em>基于用户画像的智能群体推荐系统</em>
+</div>
+
+#### 💝 **SeeU - 情感分享功能**
+<div align="center">
+  <img src="supplement/Us_pic/SeeU + data_collect.png" alt="SeeU情感分享" width="600"/>
+  <br>
+  <em>情感分享界面，支持三种情感类型的表达和互动</em>
+</div>
 
 ### 🤖 **AI功能说明**
 - **在线体验**：可以看到AI聊天界面和交互设计
@@ -211,11 +227,26 @@ node server.js
 - **AI模型**：支持Qwen2:1.5b（中文）和Llama3.2:1b（英文）
 - **隐私保护**：所有AI对话都在本地处理，不上传任何数据
 
-#### 🎯 **AI聊天演示**
+#### 🤖 **HelpU - AI聊天功能**
 <div align="center">
   <img src="UsBot/AI_demo.png" alt="UsBot AI聊天演示" width="600"/>
   <br>
   <em>UsBot AI聊天功能演示 - 智能情感支持对话</em>
+</div>
+
+#### 🔧 **AI技术实现**
+<div align="center">
+  <img src="supplement/Us_pic/AI/That's why Ollama.png" alt="Ollama技术选择" width="500"/>
+  <br>
+  <em>选择Ollama作为本地AI解决方案的技术考量</em>
+</div>
+
+#### ⚙️ **服务端口配置**
+<div align="center">
+  <img src="supplement/Us_pic/PORT/3000.png" alt="AI服务端口" width="400"/>
+  <img src="supplement/Us_pic/PORT/4000.png" alt="日志服务端口" width="400"/>
+  <br>
+  <em>AI聊天服务(3000端口) 和 用户日志服务(4000端口)</em>
 </div>
 
 *注：完整的项目截图可在 [supplement/Us_pic](./supplement/Us_pic) 文件夹中查看*

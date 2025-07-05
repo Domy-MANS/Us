@@ -200,10 +200,26 @@ node server.js
 ### 📸 Project Screenshots
 > Project interface preview to quickly understand Us functionality
 
-- **Main Interface**: Showcases group recommendation and emotional sharing features
-- **UsBot AI Chat**: Provides 24/7 emotional support conversation (requires local Ollama)
-- **Data Analysis Page**: Shows detailed usage statistics and visualization charts
-- **Multi-language Support**: Chinese-English bilingual intelligent switching
+#### 🔐 **User Login Interface**
+<div align="center">
+  <img src="supplement/Us_pic/login.png" alt="User Login Interface" width="500"/>
+  <br>
+  <em>Clean user registration interface collecting personalized info like MBTI, age, etc.</em>
+</div>
+
+#### 🎯 **FindUs - Group Recommendation**
+<div align="center">
+  <img src="supplement/Us_pic/FindUs.png" alt="FindUs Group Recommendation" width="600"/>
+  <br>
+  <em>Intelligent group recommendation system based on user profiles</em>
+</div>
+
+#### 💝 **SeeU - Emotional Sharing**
+<div align="center">
+  <img src="supplement/Us_pic/SeeU + data_collect.png" alt="SeeU Emotional Sharing" width="600"/>
+  <br>
+  <em>Emotional sharing interface supporting three types of emotional expression and interaction</em>
+</div>
 
 ### 🤖 **AI Functionality Explanation**
 - **Online Experience**: You can see the AI chat interface and interaction design
@@ -211,11 +227,26 @@ node server.js
 - **AI Models**: Supports Qwen2:1.5b (Chinese) and Llama3.2:1b (English)
 - **Privacy Protection**: All AI conversations are processed locally, no data uploaded
 
-#### 🎯 **AI Chat Demo**
+#### 🤖 **HelpU - AI Chat Functionality**
 <div align="center">
   <img src="UsBot/AI_demo.png" alt="UsBot AI Chat Demo" width="600"/>
   <br>
   <em>UsBot AI Chat Functionality Demo - Intelligent Emotional Support Conversation</em>
+</div>
+
+#### 🔧 **AI Technical Implementation**
+<div align="center">
+  <img src="supplement/Us_pic/AI/That's why Ollama.png" alt="Ollama Technology Choice" width="500"/>
+  <br>
+  <em>Technical considerations for choosing Ollama as local AI solution</em>
+</div>
+
+#### ⚙️ **Service Port Configuration**
+<div align="center">
+  <img src="supplement/Us_pic/PORT/3000.png" alt="AI Service Port" width="400"/>
+  <img src="supplement/Us_pic/PORT/4000.png" alt="Log Service Port" width="400"/>
+  <br>
+  <em>AI Chat Service (Port 3000) and User Log Service (Port 4000)</em>
 </div>
 
 *Note: Complete project screenshots can be viewed in [supplement/Us_pic](./supplement/Us_pic) folder*
