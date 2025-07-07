@@ -7,7 +7,7 @@
 
   *A warm emotional social platform where every "U" can find their own "Us"*
 
-  **Language**: [中文](README.md) | [English](README_EN.md)
+  **Language**: [中文](README.md) | English
 
   [![GitHub stars](https://img.shields.io/github/stars/Domy-MANS/Us?style=social)](https://github.com/Domy-MANS/Us/stargazers)
   [![GitHub forks](https://img.shields.io/github/forks/Domy-MANS/Us?style=social)](https://github.com/Domy-MANS/Us/network)
