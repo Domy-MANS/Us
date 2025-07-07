@@ -7,7 +7,7 @@
 
   *一个温暖的情感社交平台，让每个"你"都能找到属于自己的"我们"*
 
-  **Language**: [中文](README.md) | [English](README_EN.md)
+  **Language**: 中文 | [English](README_EN.md)
 
   [![GitHub stars](https://img.shields.io/github/stars/Domy-MANS/Us?style=social)](https://github.com/Domy-MANS/Us/stargazers)
   [![GitHub forks](https://img.shields.io/github/forks/Domy-MANS/Us?style=social)](https://github.com/Domy-MANS/Us/network)
