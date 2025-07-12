@@ -228,10 +228,19 @@ node server.js
 - **隐私保护**：所有AI对话都在本地处理，不上传任何数据
 
 #### 🤖 **HelpU - AI聊天功能**
+
+##### 💬 **AI聊天演示**
 <div align="center">
   <img src="UsBot/AI_demo.png" alt="UsBot AI聊天演示" width="600"/>
   <br>
   <em>UsBot AI聊天功能演示 - 智能情感支持对话</em>
+</div>
+
+##### 🎨 **UsBot形象设计**
+<div align="center">
+  <img src="UsBot/UsBot.png" alt="UsBot角色设计" width="300"/>
+  <br>
+  <em>UsBot AI伙伴的可爱形象设计</em>
 </div>
 
 #### 🔧 **AI技术实现**

@@ -228,10 +228,19 @@ node server.js
 - **Privacy Protection**: All AI conversations are processed locally, no data uploaded
 
 #### 🤖 **HelpU - AI Chat Functionality**
+
+##### 💬 **AI Chat Demo**
 <div align="center">
   <img src="UsBot/AI_demo.png" alt="UsBot AI Chat Demo" width="600"/>
   <br>
   <em>UsBot AI Chat Functionality Demo - Intelligent Emotional Support Conversation</em>
+</div>
+
+##### 🎨 **UsBot Character Design**
+<div align="center">
+  <img src="UsBot/UsBot.png" alt="UsBot Character Design" width="300"/>
+  <br>
+  <em>Adorable character design of UsBot AI companion</em>
 </div>
 
 #### 🔧 **AI Technical Implementation**
