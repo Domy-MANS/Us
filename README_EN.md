@@ -216,7 +216,7 @@ node server.js
 
 #### 💝 **SeeU - Emotional Sharing**
 <div align="center">
-  <img src="supplement/Us_pic/SeeU + data_collect.png" alt="SeeU Emotional Sharing" width="600"/>
+  <img src="supplement/Us_pic/SeeU.png" alt="SeeU Emotional Sharing" width="600"/>
   <br>
   <em>Emotional sharing interface supporting three types of emotional expression and interaction</em>
 </div>
@@ -238,9 +238,12 @@ node server.js
 
 ##### 🎨 **UsBot Character Design**
 <div align="center">
-  <img src="UsBot/UsBot.png" alt="UsBot Character Design" width="300"/>
+  <img src="UsBot/UsBot.png" alt="UsBot Character Design" width="250"/>
+  <img src="UsBot/UsBotHeart.png" alt="UsBot Heart Form" width="100"/>
+  <img src="UsBot/UsBot_happy.png" alt="UsBot Happy Form" width="100"/>
+  <img src="UsBot/UsBot_sad.png" alt="UsBot Sad Form" width="100"/>
   <br>
-  <em>Adorable character design of UsBot AI companion</em>
+  <em>Multiple adorable character designs of UsBot AI companion - Basic, Heart, Happy, Sad forms</em>
 </div>
 
 #### 🔧 **AI Technical Implementation**
@@ -252,8 +255,8 @@ node server.js
 
 #### ⚙️ **Service Port Configuration**
 <div align="center">
-  <img src="supplement/Us_pic/PORT/3000.png" alt="AI Service Port" width="400"/>
-  <img src="supplement/Us_pic/PORT/4000.png" alt="Log Service Port" width="400"/>
+  <img src="supplement/Us_pic/AI3000.png" alt="AI Service Port" width="400"/>
+  <img src="supplement/Us_pic/4000.png" alt="Log Service Port" width="400"/>
   <br>
   <em>AI Chat Service (Port 3000) and User Log Service (Port 4000)</em>
 </div>

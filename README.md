@@ -216,7 +216,7 @@ node server.js
 
 #### 💝 **SeeU - 情感分享功能**
 <div align="center">
-  <img src="supplement/Us_pic/SeeU + data_collect.png" alt="SeeU情感分享" width="600"/>
+  <img src="supplement/Us_pic/SeeU.png" alt="SeeU情感分享" width="600"/>
   <br>
   <em>情感分享界面，支持三种情感类型的表达和互动</em>
 </div>
@@ -238,9 +238,12 @@ node server.js
 
 ##### 🎨 **UsBot形象设计**
 <div align="center">
-  <img src="UsBot/UsBot.png" alt="UsBot角色设计" width="300"/>
+  <img src="UsBot/UsBot.png" alt="UsBot角色设计" width="250"/>
+  <img src="UsBot/UsBotHeart.png" alt="UsBot爱心形态" width="100"/>
+  <img src="UsBot/UsBot_happy.png" alt="UsBot开心形态" width="100"/>
+  <img src="UsBot/UsBot_sad.png" alt="UsBot难过形态" width="100"/>
   <br>
-  <em>UsBot AI伙伴的可爱形象设计</em>
+  <em>UsBot AI伙伴的多种可爱形象设计 - 基础形态、爱心、开心、难过</em>
 </div>
 
 #### 🔧 **AI技术实现**
@@ -252,8 +255,8 @@ node server.js
 
 #### ⚙️ **服务端口配置**
 <div align="center">
-  <img src="supplement/Us_pic/PORT/3000.png" alt="AI服务端口" width="400"/>
-  <img src="supplement/Us_pic/PORT/4000.png" alt="日志服务端口" width="400"/>
+  <img src="supplement/Us_pic/AI3000.png" alt="AI服务端口" width="400"/>
+  <img src="supplement/Us_pic/4000.png" alt="日志服务端口" width="400"/>
   <br>
   <em>AI聊天服务(3000端口) 和 用户日志服务(4000端口)</em>
 </div>
