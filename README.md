@@ -254,12 +254,20 @@ node server.js
   <em>选择Ollama作为本地AI解决方案的技术考量</em>
 </div>
 
-#### ⚙️ **服务端口配置**
+#### ⚙️ **服务端口配置与数据分析**
 <div align="center">
   <img src="supplement/Us_pic/AI3000.png" alt="AI服务端口" width="400"/>
   <img src="supplement/Us_pic/4000.png" alt="日志服务端口" width="400"/>
   <br>
   <em>AI聊天服务(3000端口) 和 用户日志服务(4000端口)</em>
+</div>
+
+<div align="center">
+  <img src="supplement/Us_pic/fake_generate.png" alt="假数据生成" width="300"/>
+  <img src="supplement/Us_pic/fake_analysis.png" alt="假数据分析" width="300"/>
+  <img src="supplement/Us_pic/real_analysis.png" alt="真实数据分析" width="300"/>
+  <br>
+  <em>数据生成与分析流程：假数据生成、假数据分析、真实数据分析</em>
 </div>
 
 *注：完整的项目截图可在 [supplement/Us_pic](./supplement/Us_pic) 文件夹中查看*

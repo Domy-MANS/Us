@@ -254,12 +254,20 @@ node server.js
   <em>Technical considerations for choosing Ollama as local AI solution</em>
 </div>
 
-#### ⚙️ **Service Port Configuration**
+#### ⚙️ **Service Port Configuration & Data Analysis**
 <div align="center">
   <img src="supplement/Us_pic/AI3000.png" alt="AI Service Port" width="400"/>
   <img src="supplement/Us_pic/4000.png" alt="Log Service Port" width="400"/>
   <br>
   <em>AI Chat Service (Port 3000) and User Log Service (Port 4000)</em>
+</div>
+
+<div align="center">
+  <img src="supplement/Us_pic/fake_generate.png" alt="Fake Data Generation" width="300"/>
+  <img src="supplement/Us_pic/fake_analysis.png" alt="Fake Data Analysis" width="300"/>
+  <img src="supplement/Us_pic/real_analysis.png" alt="Real Data Analysis" width="300"/>
+  <br>
+  <em>Data Generation and Analysis Workflow: Fake Data Generation, Fake Data Analysis, Real Data Analysis</em>
 </div>
 
 *Note: Complete project screenshots can be viewed in [supplement/Us_pic](./supplement/Us_pic) folder*
