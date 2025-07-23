@@ -240,10 +240,11 @@ node server.js
 <div align="center">
   <img src="UsBot/UsBot.png" alt="UsBot Character Design" width="250"/>
   <img src="UsBot/UsBotHeart.png" alt="UsBot Heart Form" width="100"/>
-  <img src="UsBot/UsBot_happy.png" alt="UsBot Happy Form" width="100"/>
-  <img src="UsBot/UsBot_sad.png" alt="UsBot Sad Form" width="100"/>
+  <img src="UsBot/cry.png" alt="UsBot Crying Form" width="100"/>
+  <img src="UsBot/word.png" alt="UsBot Speaking Form" width="100"/>
+  <img src="UsBot/zzz.png" alt="UsBot Sleeping Form" width="100"/>
   <br>
-  <em>Multiple adorable character designs of UsBot AI companion - Basic, Heart, Happy, Sad forms</em>
+  <em>Multiple adorable character designs of UsBot AI companion - Basic, Heart, Crying, Speaking, Sleeping forms</em>
 </div>
 
 #### 🔧 **AI Technical Implementation**
