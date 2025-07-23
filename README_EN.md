@@ -280,6 +280,11 @@ This project is based on in-depth academic research exploring how self-built emo
 - 🖼️ [Download Poster (PNG)](supplement/Us_poster/Us-Poster.png)
 - 📄 [Download Poster (PDF)](supplement/Us_poster/Us_Poster.pdf)
 
+### 📊 **Project Presentation**
+Complete project introduction and technical demonstration slides.
+
+- 📽️ [View Presentation PPT](supplement/Us.pptx)
+
 ## 🎨 Project Features
 
 - **🔒 Privacy Protection** - Local AI model, no data upload

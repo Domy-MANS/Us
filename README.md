@@ -280,6 +280,11 @@ node server.js
 - 🖼️ [下载海报 (PNG)](supplement/Us_poster/Us-Poster.png)
 - 📄 [下载海报 (PDF)](supplement/Us_poster/Us_Poster.pdf)
 
+### 📊 **项目演示PPT**
+完整的项目介绍和技术展示演示文稿。
+
+- 📽️ [查看演示PPT](supplement/Us.pptx)
+
 ## 🎨 项目特色
 
 - **🔒 隐私保护** - 本地 AI 模型，数据不上传
