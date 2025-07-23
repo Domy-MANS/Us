@@ -8302,5 +8302,17 @@
     "timestamp": "2025-07-04T09:02:57.593Z",
     "event": "open_app",
     "target": "2025-07-04T09:02:57.593Z"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-23T05:05:01.382Z",
+    "event": "join_us",
+    "target": "TeenagerUs"
+  },
+  {
+    "userId": "testUser001",
+    "timestamp": "2025-07-23T05:05:05.417Z",
+    "event": "react_post",
+    "target": "1751613781015"
   }
 ]
