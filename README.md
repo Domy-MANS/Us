@@ -240,9 +240,9 @@ node server.js
 <div align="center">
   <img src="UsBot/UsBot.png" alt="UsBot角色设计" width="250"/>
   <img src="UsBot/UsBotHeart.png" alt="UsBot爱心形态" width="100"/>
-  <img src="UsBot/cry。.png" alt="UsBot哭泣形态" width="100"/>
-  <img src="UsBot/Word。.png" alt="UsBot说话形态" width="100"/>
-  <img src="UsBot/zzz。.png" alt="UsBot睡觉形态" width="100"/>
+  <img src="UsBot/Cry.png" alt="UsBot哭泣形态" width="100"/>
+  <img src="UsBot/Word.png" alt="UsBot说话形态" width="100"/>
+  <img src="UsBot/zzz.png" alt="UsBot睡觉形态" width="100"/>
   <br>
   <em>UsBot AI伙伴的多种可爱形象设计 - 基础形态、爱心、哭泣、说话、睡觉</em>
 </div>
