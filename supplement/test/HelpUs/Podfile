@@ -1,6 +1,0 @@
-platform :ios, '13.0'
-use_frameworks!
-
-target 'HelpUs' do
-    pod 'BoringSSL-GRPC', '~> 0.0.32'
-end
