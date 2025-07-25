@@ -195,3 +195,15 @@ logs
 # Temporary files
 tmp/
 temp/
+
+# API Keys and sensitive files
+GoogleService-Info.plist
+google-services.json
+*.p12
+*.key
+*.pem
+config.json
+secrets.json
+.env.local
+.env.production
+.env.development
