@@ -105,7 +105,16 @@ Us project includes 6 main functional modules:
    - [Click to download ZIP file](https://github.com/Domy-MANS/Us/archive/refs/heads/main.zip)
    - Or use Git: `git clone https://github.com/Domy-MANS/Us.git`
 
-2. **Extract and Open**
+2. **Install Dependencies** (if full functionality needed)
+   ```bash
+   # Method 1: Using npm (Recommended)
+   npm install
+
+   # Method 2: Global installation
+   npm install -g express cors
+   ```
+
+3. **Extract and Open**
    - Extract the downloaded file
    - Double-click to open `Us.html` file
    - Start using!
@@ -127,8 +136,12 @@ git clone https://github.com/Domy-MANS/Us.git
 cd Us
 ```
 
-2. **Install AI Service Dependencies**
+2. **Install Project Dependencies**
 ```bash
+# Install root directory dependencies (log server)
+npm install
+
+# Install AI service dependencies
 cd us-ai-server
 npm install
 cd ..

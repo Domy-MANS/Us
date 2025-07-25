@@ -105,7 +105,16 @@ Us项目包含6个主要功能模块：
    - [点击下载ZIP文件](https://github.com/Domy-MANS/Us/archive/refs/heads/main.zip)
    - 或使用Git：`git clone https://github.com/Domy-MANS/Us.git`
 
-2. **解压并打开**
+2. **安装依赖**（如需要完整功能）
+   ```bash
+   # 方式1：使用npm（推荐）
+   npm install
+
+   # 方式2：全局安装
+   npm install -g express cors
+   ```
+
+3. **解压并打开**
    - 解压下载的文件
    - 双击打开 `Us.html` 文件
    - 开始使用！
@@ -127,8 +136,12 @@ git clone https://github.com/Domy-MANS/Us.git
 cd Us
 ```
 
-2. **安装 AI 服务依赖**
+2. **安装项目依赖**
 ```bash
+# 安装根目录依赖（日志服务器）
+npm install
+
+# 安装AI服务依赖
 cd us-ai-server
 npm install
 cd ..
