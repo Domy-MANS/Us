@@ -21,7 +21,7 @@
 
 ## 🌟 Project Philosophy
 
-The name **Us** cleverly utilizes the concept of English plurals: many **U**s (you) come together to form **Us** (we). This embodies the platform's core philosophy—connecting lonely individuals into warm communities.
+The name **Us** cleverly utilizes the concept of English plurals: many **U**(you)s come together to form **Us** (we). This embodies the platform's core philosophy—connecting lonely individuals into warm communities.
 
 ## ⚡ Fun Fact
 
