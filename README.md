@@ -1,13 +1,13 @@
-# Us - 情感社交平台
+# Us - Emotional Social Platform
 
 <div align="center">
   <img src="Us.png" alt="Us Logo" width="200"/>
 
   **Us is many U, U belong to Us**
 
-  *一个温暖的情感社交平台，让每个"你"都能找到属于自己的"我们"*
+  *A warm emotional social platform where every "U" can find their own "Us"*
 
-  **Language**: 中文 | [English](README_EN.md)
+  **Language**: [中文](README.md) | English
 
   [![GitHub stars](https://img.shields.io/github/stars/Domy-MANS/Us?style=social)](https://github.com/Domy-MANS/Us/stargazers)
   [![GitHub forks](https://img.shields.io/github/forks/Domy-MANS/Us?style=social)](https://github.com/Domy-MANS/Us/network)
@@ -16,402 +16,402 @@
   ![Solo Developer](https://img.shields.io/badge/Solo%20Developer-100%25-brightgreen?style=flat-square&logo=user)
   ![Age](https://img.shields.io/badge/Developer%20Age-16%20years%20old-orange?style=flat-square&logo=graduation-cap)
 
-  [🚀 在线体验](https://domy-mans.github.io/Us/Us.html) | [⬇️ 下载使用](https://github.com/Domy-MANS/Us/archive/refs/heads/main.zip) | [📖 使用指南](#-使用指南)
+  [🚀 Try Online](https://domy-mans.github.io/Us/Us.html) | [⬇️ Download](https://github.com/Domy-MANS/Us/archive/refs/heads/main.zip) | [📖 User Guide](#-user-guide)
 </div>
 
-## 🌟 项目理念
+## 🌟 Project Philosophy
 
-**Us** 这个名字巧妙地利用了英语复数的概念：很多个 **U**（你）聚在一起，形成了 **Us**（我们）。这体现了平台的核心理念——将孤独的个体连接成温暖的群体。
+The name **Us** cleverly utilizes the concept of English plurals: many **U**s (you) come together to form **Us** (we). This embodies the platform's core philosophy—connecting lonely individuals into warm communities.
 
 ## ⚡ Fun Fact
 
-> 🚀 **令人震惊的开发速度**：整个Us项目（包括前端界面、AI聊天系统、数据分析、可视化图表、6个服务模块以及完整文档）由一个**16岁高中生**在**不到一周**的时间内独立完成！
->
-> 📅 **开发时间线**：
-> - 🎯 产品设计与架构规划
-> - 🌐 前端界面开发与交互实现
-> - 🤖 AI聊天系统集成（Ollama + 多模型支持）
-> - 📊 用户行为追踪与数据收集
-> - 📈 数据分析与可视化系统
-> - 🔧 6个独立服务模块的开发与整合
-> - 📝 完整的项目文档与部署配置
->
-> 💡 这展现了快速原型开发、全栈技术整合和高效执行的能力！
+> 🚀 **Incredible Development Speed**: The entire Us project (including frontend interface, AI chat system, data analysis, visualization charts, 6 service modules, and complete documentation) was independently completed by a **16-year-old high school student** in **less than a week**!
+> 
+> 📅 **Development Timeline**:
+> - 🎯 Product design and architecture planning
+> - 🌐 Frontend interface development and interaction implementation
+> - 🤖 AI chat system integration (Ollama + multi-model support)
+> - 📊 User behavior tracking and data collection
+> - 📈 Data analysis and visualization system
+> - 🔧 Development and integration of 6 independent service modules
+> - 📝 Complete project documentation and deployment configuration
+> 
+> 💡 This demonstrates rapid prototyping, full-stack technology integration, and efficient execution capabilities!
 
-## ✨ 主要功能
+## ✨ Main Features
 
-### 🎯 **FindUs - 个性化群体推荐**
-- 基于年龄、性别、MBTI、职业等信息
-- 智能推荐合适的 "Us" 群体
-- 支持创建自定义群体
-- 精准匹配志同道合的伙伴
+### 🎯 **FindUs - Personalized Group Recommendations**
+- Based on age, gender, MBTI, occupation and other information
+- Intelligent recommendation of suitable "Us" groups
+- Support for creating custom groups
+- Precise matching of like-minded partners
 
-### 💝 **SeeU - 情感分享与支持**
-- 三种情感类型：😭 悲伤/孤独、😎 快乐/积极、😟 焦虑/困惑
-- 群体内情感分享和互动
-- 点赞、评论、情感反馈系统
-- 真实的情感表达和共鸣空间
+### 💝 **SeeU - Emotional Sharing & Support**
+- Three emotional types: 😭 Sad/Lonely, 😎 Happy/Positive, 😟 Anxious/Confused
+- Emotional sharing and interaction within groups
+- Like, comment, and emotional feedback system
+- Authentic emotional expression and resonance space
 
-### 🤖 **HelpU - AI 情感伙伴 UsBot**
-- 24/7 情感支持聊天机器人
-- 双语支持（中文/英文）
-- 本地 AI 模型，保护隐私
-- 可拖拽的情感反应伴侣
+### 🤖 **HelpU - AI Emotional Companion UsBot**
+- 24/7 emotional support chatbot
+- Bilingual support (Chinese/English)
+- Local AI model for privacy protection
+- Draggable emotional reaction companion
 
-### 📊 **用户行为分析**
-- 实时用户行为追踪
-- 情感状态分析
-- 数据可视化图表
-- 个人和群体统计报告
+### 📊 **User Behavior Analysis**
+- Real-time user behavior tracking
+- Emotional state analysis
+- Data visualization charts
+- Personal and group statistical reports
 
-## 🏗️ 技术架构
+## 🏗️ Technical Architecture
 
-### 前端
-- **纯 HTML/CSS/JavaScript** - 轻量级单页应用
-- **响应式设计** - 适配各种设备
-- **实时交互** - 流畅的用户体验
-- **三大核心模块**：FindUs（群体推荐）、SeeU（情感分享）、HelpU（AI聊天）
+### Frontend
+- **Pure HTML/CSS/JavaScript** - Lightweight single-page application
+- **Responsive Design** - Adapts to various devices
+- **Real-time Interaction** - Smooth user experience
+- **Three Core Modules**: FindUs (Group Recommendation), SeeU (Emotional Sharing), HelpU (AI Chat)
 
-### 核心服务模块
-Us项目包含6个主要功能模块：
+### Core Service Modules
+Us project includes 6 main functional modules:
 
-| 模块 | 文件 | 功能描述 |
-|------|------|----------|
-| 🌐 **本地服务器** | `npx http-server` | 提供Web服务，访问Us.html主界面 |
-| 📝 **用户日志** | `us-log-server.js` | 记录用户行为数据到real_data文件夹 |
-| 🤖 **AI聊天服务** | `us-ai-server/server.js` | 基于Ollama的本地AI聊天功能 |
-| 🎲 **假数据生成** | `generate-fake-logs.js` | 生成测试数据到fake_data文件夹 |
-| 📊 **真实数据分析** | `analyze-log.js` | 分析real_data，生成用户统计报告 |
-| 📈 **假数据分析** | `analyze-fake-log.js` | 分析fake_data，生成测试统计报告 |
+| Module | File | Description |
+|--------|------|-------------|
+| 🌐 **Local Server** | `npx http-server` | Provides web service, access Us.html main interface |
+| 📝 **User Logs** | `us-log-server.js` | Records user behavior data to real_data folder |
+| 🤖 **AI Chat Service** | `us-ai-server/server.js` | Local AI chat functionality based on Ollama |
+| 🎲 **Fake Data Generation** | `generate-fake-logs.js` | Generates test data to fake_data folder |
+| 📊 **Real Data Analysis** | `analyze-log.js` | Analyzes real_data, generates user statistical reports |
+| 📈 **Fake Data Analysis** | `analyze-fake-log.js` | Analyzes fake_data, generates test statistical reports |
 
-### AI 模型
-- **Qwen2:1.5b** - 中文对话优化
-- **Llama3.2:1b** - 英文对话支持
-- **智能降级** - 多重备选方案
+### AI Models
+- **Qwen2:1.5b** - Chinese conversation optimization
+- **Llama3.2:1b** - English conversation support
+- **Intelligent Fallback** - Multiple backup solutions
 
-## 🚀 快速体验
+## 🚀 Quick Start
 
-### 🌟 方式1：在线体验（推荐）
-> 无需下载，直接在浏览器中使用
+### 🌟 Method 1: Online Experience (Recommended)
+> No download required, use directly in browser
 
-**🚀 立即体验**：[https://domy-mans.github.io/Us/Us.html](https://domy-mans.github.io/Us/Us.html)
+**🚀 Try Now**: [https://domy-mans.github.io/Us/Us.html](https://domy-mans.github.io/Us/Us.html)
 
-*注意：在线版本的AI聊天功能需要本地Ollama服务支持*
+*Note: AI chat functionality in online version requires local Ollama service support*
 
-### 📥 方式2：下载体验
-> 适合想要本地运行的用户
+### 📥 Method 2: Download Experience
+> For users who want to run locally
 
-1. **下载项目**
-   - [点击下载ZIP文件](https://github.com/Domy-MANS/Us/archive/refs/heads/main.zip)
-   - 或使用Git：`git clone https://github.com/Domy-MANS/Us.git`
+1. **Download Project**
+   - [Click to download ZIP file](https://github.com/Domy-MANS/Us/archive/refs/heads/main.zip)
+   - Or use Git: `git clone https://github.com/Domy-MANS/Us.git`
 
-2. **安装依赖**（如需要完整功能）
+2. **Install Dependencies** (if full functionality needed)
    ```bash
-   # 方式1：使用npm（推荐）
+   # Method 1: Using npm (Recommended)
    npm install
 
-   # 方式2：全局安装
+   # Method 2: Global installation
    npm install -g express cors
    ```
 
-3. **解压并打开**
-   - 解压下载的文件
-   - 双击打开 `Us.html` 文件
-   - 开始使用！
+3. **Extract and Open**
+   - Extract the downloaded file
+   - Double-click to open `Us.html` file
+   - Start using!
 
-### 🔧 完整安装（开发者）
+### 🔧 Complete Installation (Developers)
 
-如果你想要完整的AI功能和数据分析：
+If you want full AI functionality and data analysis:
 
-#### 环境要求
+#### Requirements
 - Node.js 14+
-- Python 3.7+ (用于数据分析)
-- Ollama (本地 AI 模型)
+- Python 3.7+ (for data analysis)
+- Ollama (local AI model)
 
-#### 安装步骤
+#### Installation Steps
 
-1. **克隆项目**
+1. **Clone Project**
 ```bash
 git clone https://github.com/Domy-MANS/Us.git
 cd Us
 ```
 
-2. **安装项目依赖**
+2. **Install Project Dependencies**
 ```bash
-# 安装根目录依赖（日志服务器）
+# Install root directory dependencies (log server)
 npm install
 
-# 安装AI服务依赖
+# Install AI service dependencies
 cd us-ai-server
 npm install
 cd ..
 ```
 
-3. **安装 Ollama 和 AI 模型**（可选，用于AI聊天功能）
+3. **Install Ollama and AI Models** (Optional, for AI chat functionality)
 ```bash
-# 安装 Ollama
+# Install Ollama
 brew install ollama
 
-# 下载 AI 模型
+# Download AI models
 ollama pull qwen2:1.5b
 ollama pull llama3.2:1b
 ```
 
-#### 🚀 启动服务
+#### 🚀 Start Services
 
-Us项目包含多个服务，根据需要启动：
+Us project contains multiple services, start as needed:
 
-| 服务 | 命令 | 端口 | 功能 |
-|------|------|------|------|
-| **本地服务器** | `npx http-server . -p 1234` | 1234 | 启动本地服务器访问Us.html |
-| **用户日志服务** | `node us-log-server.js` | 4000 | 记录用户行为到real_data |
-| **AI聊天服务** | `cd us-ai-server && node server.js` | 3000 | AI聊天功能 |
+| Service | Command | Port | Function |
+|---------|---------|------|----------|
+| **Local Server** | `npx http-server . -p 1234` | 1234 | Start local server to access Us.html |
+| **User Log Service** | `node us-log-server.js` | 4000 | Record user behavior to real_data |
+| **AI Chat Service** | `cd us-ai-server && node server.js` | 3000 | AI chat functionality |
 
-#### 📊 数据分析工具
+#### 📊 Data Analysis Tools
 
-| 工具 | 命令 | 功能 |
-|------|------|------|
-| **生成假数据** | `node generate-fake-logs.js` | 生成测试数据到fake_data文件夹 |
-| **分析真实数据** | `node analyze-log.js` | 分析real_data，生成统计报告 |
-| **分析假数据** | `node analyze-fake-log.js` | 分析fake_data，生成统计报告 |
+| Tool | Command | Function |
+|------|---------|----------|
+| **Generate Fake Data** | `node generate-fake-logs.js` | Generate test data to fake_data folder |
+| **Analyze Real Data** | `node analyze-log.js` | Analyze real_data, generate statistical reports |
+| **Analyze Fake Data** | `node analyze-fake-log.js` | Analyze fake_data, generate statistical reports |
 
-#### 🎯 推荐启动流程
+#### 🎯 Recommended Startup Process
 
-**基础使用**（仅体验界面）：
+**Basic Usage** (Interface experience only):
 ```bash
 cd Us
 npx http-server . -p 1234
-# 浏览器访问: http://localhost:1234/Us.html
+# Browser access: http://localhost:1234/Us.html
 ```
 
-**完整功能**（包含AI和数据记录）：
+**Full Functionality** (Including AI and data recording):
 ```bash
-# 终端1: 启动本地服务器
+# Terminal 1: Start local server
 cd Us
 npx http-server . -p 1234
 
-# 终端2: 启动日志服务
+# Terminal 2: Start log service
 cd Us
 node us-log-server.js
 
-# 终端3: 启动AI服务
+# Terminal 3: Start AI service
 cd Us/us-ai-server
 node server.js
 
-# 浏览器访问: http://localhost:1234/Us.html
+# Browser access: http://localhost:1234/Us.html
 ```
 
-## 📱 使用指南
+## 📱 User Guide
 
-### 🎯 快速上手
-1. **注册信息** - 填写年龄、性别、MBTI 等基本信息
-2. **FindUs** - 通过智能推荐加入合适的 "Us" 群体或创建自定义群体
-3. **SeeU** - 在群体中分享你的感受和想法，获得情感支持
-4. **HelpU** - 点击 "Help U" 与 UsBot 进行24/7情感支持对话
-5. **查看统计** - 了解自己的使用习惯和情感变化
+### 🎯 Quick Start
+1. **Registration Info** - Fill in age, gender, MBTI and other basic information
+2. **FindUs** - Join suitable "Us" groups through intelligent recommendations or create custom groups
+3. **SeeU** - Share your feelings and thoughts in groups, get emotional support
+4. **HelpU** - Click "Help U" for 24/7 emotional support conversation with UsBot
+5. **View Statistics** - Understand your usage habits and emotional changes
 
-### 📸 项目截图
-> 项目界面预览，让你快速了解Us的功能
+### 📸 Project Screenshots
+> Project interface preview to quickly understand Us functionality
 
-#### 🔐 **用户登录界面**
+#### 🔐 **User Login Interface**
 <div align="center">
-  <img src="supplement/Us_pic/login.png" alt="用户登录界面" width="500"/>
+  <img src="supplement/Us_pic/login.png" alt="User Login Interface" width="500"/>
   <br>
-  <em>简洁的用户信息注册界面，收集MBTI、年龄等个性化信息</em>
+  <em>Clean user registration interface collecting personalized info like MBTI, age, etc.</em>
 </div>
 
-#### 🎯 **FindUs - 群体推荐功能**
+#### 🎯 **FindUs - Group Recommendation**
 <div align="center">
-  <img src="supplement/Us_pic/FindUs.png" alt="FindUs群体推荐" width="600"/>
+  <img src="supplement/Us_pic/FindUs.png" alt="FindUs Group Recommendation" width="600"/>
   <br>
-  <em>基于用户画像的智能群体推荐系统</em>
+  <em>Intelligent group recommendation system based on user profiles</em>
 </div>
 
-#### 💝 **SeeU - 情感分享功能**
+#### 💝 **SeeU - Emotional Sharing**
 <div align="center">
-  <img src="supplement/Us_pic/SeeU.png" alt="SeeU情感分享" width="600"/>
+  <img src="supplement/Us_pic/SeeU.png" alt="SeeU Emotional Sharing" width="600"/>
   <br>
-  <em>情感分享界面，支持三种情感类型的表达和互动</em>
+  <em>Emotional sharing interface supporting three types of emotional expression and interaction</em>
 </div>
 
-### 🤖 **AI功能说明**
-- **在线体验**：可以看到AI聊天界面和交互设计
-- **完整功能**：需要本地安装Ollama和AI模型
-- **AI模型**：支持Qwen2:1.5b（中文）和Llama3.2:1b（英文）
-- **隐私保护**：所有AI对话都在本地处理，不上传任何数据
+### 🤖 **AI Functionality Explanation**
+- **Online Experience**: You can see the AI chat interface and interaction design
+- **Full Functionality**: Requires local installation of Ollama and AI models
+- **AI Models**: Supports Qwen2:1.5b (Chinese) and Llama3.2:1b (English)
+- **Privacy Protection**: All AI conversations are processed locally, no data uploaded
 
-#### 🤖 **HelpU - AI聊天功能**
+#### 🤖 **HelpU - AI Chat Functionality**
 
-##### 💬 **AI聊天演示**
+##### 💬 **AI Chat Demo**
 <div align="center">
-  <img src="UsBot/AI_demo.png" alt="UsBot AI聊天演示" width="600"/>
+  <img src="UsBot/AI_demo.png" alt="UsBot AI Chat Demo" width="600"/>
   <br>
-  <em>UsBot AI聊天功能演示 - 智能情感支持对话</em>
+  <em>UsBot AI Chat Functionality Demo - Intelligent Emotional Support Conversation</em>
 </div>
 
-##### 🎨 **UsBot形象设计**
+##### 🎨 **UsBot Character Design**
 <div align="center">
-  <img src="UsBot/UsBot.png" alt="UsBot角色设计" width="250"/>
-  <img src="UsBot/UsBotHeart.png" alt="UsBot爱心形态" width="100"/>
-  <img src="UsBot/Cry.png" alt="UsBot哭泣形态" width="100"/>
-  <img src="UsBot/Word.png" alt="UsBot说话形态" width="100"/>
-  <img src="UsBot/zzz.png" alt="UsBot睡觉形态" width="100"/>
+  <img src="UsBot/UsBot.png" alt="UsBot Character Design" width="250"/>
+  <img src="UsBot/UsBotHeart.png" alt="UsBot Heart Form" width="100"/>
+  <img src="UsBot/Cry.png" alt="UsBot Crying Form" width="100"/>
+  <img src="UsBot/Word.png" alt="UsBot Speaking Form" width="100"/>
+  <img src="UsBot/zzz.png" alt="UsBot Sleeping Form" width="100"/>
   <br>
-  <em>UsBot AI伙伴的多种可爱形象设计 - 基础形态、爱心、哭泣、说话、睡觉</em>
+  <em>Multiple adorable character designs of UsBot AI companion - Basic, Heart, Crying, Speaking, Sleeping forms</em>
 </div>
 
-#### 🔧 **AI技术实现**
+#### 🔧 **AI Technical Implementation**
 <div align="center">
-  <img src="supplement/Us_pic/AI/That's why Ollama.png" alt="Ollama技术选择" width="500"/>
+  <img src="supplement/Us_pic/AI/That's why Ollama.png" alt="Ollama Technology Choice" width="500"/>
   <br>
-  <em>选择Ollama作为本地AI解决方案的技术考量</em>
+  <em>Technical considerations for choosing Ollama as local AI solution</em>
 </div>
 
-#### ⚙️ **服务端口配置与数据分析**
+#### ⚙️ **Service Port Configuration & Data Analysis**
 <div align="center">
-  <img src="supplement/Us_pic/AI3000.png" alt="AI服务端口" width="400"/>
-  <img src="supplement/Us_pic/4000.png" alt="日志服务端口" width="400"/>
+  <img src="supplement/Us_pic/AI3000.png" alt="AI Service Port" width="400"/>
+  <img src="supplement/Us_pic/4000.png" alt="Log Service Port" width="400"/>
   <br>
-  <em>AI聊天服务(3000端口) 和 用户日志服务(4000端口)</em>
+  <em>AI Chat Service (Port 3000) and User Log Service (Port 4000)</em>
 </div>
 
 <div align="center">
-  <img src="supplement/Us_pic/fake_generate.png" alt="假数据生成" width="300"/>
-  <img src="supplement/Us_pic/fake_analysis.png" alt="假数据分析" width="300"/>
-  <img src="supplement/Us_pic/real_analysis.png" alt="真实数据分析" width="300"/>
+  <img src="supplement/Us_pic/fake_generate.png" alt="Fake Data Generation" width="300"/>
+  <img src="supplement/Us_pic/fake_analysis.png" alt="Fake Data Analysis" width="300"/>
+  <img src="supplement/Us_pic/real_analysis.png" alt="Real Data Analysis" width="300"/>
   <br>
-  <em>数据生成与分析流程：假数据生成、假数据分析、真实数据分析</em>
+  <em>Data Generation and Analysis Workflow: Fake Data Generation, Fake Data Analysis, Real Data Analysis</em>
 </div>
 
-*注：完整的项目截图可在 [supplement/Us_pic](./supplement/Us_pic) 文件夹中查看*
+*Note: Complete project screenshots can be viewed in [supplement/Us_pic](./supplement/Us_pic) folder*
 
-## 📚 学术研究
+## 📚 Academic Research
 
-### 📄 **研究论文**
-本项目基于深入的学术研究，探讨自建情感支持社区对用户情感和幸福感的影响。
+### 📄 **Research Paper**
+This project is based on in-depth academic research exploring how self-built emotional support communities impact users' emotions and well-being.
 
-**论文标题**：*How do self-built emotional support communities impact users' emotions and well-being*
+**Paper Title**: *How do self-built emotional support communities impact users' emotions and well-being*
 
-- 📖 [查看论文 (PDF)](supplement/Us_paper/How%20do%20self-built%20emotional%20support%20communities%20impact%20users%E2%80%99%20emotions%20and%20well-being.pdf)
-- 📝 [查看论文 (Word)](supplement/Us_paper/How%20do%20self-built%20emotional%20support%20communities%20impact%20users%E2%80%99%20emotions%20and%20well-being.docx)
+- 📖 [View Paper (PDF)](supplement/Us_paper/How%20do%20self-built%20emotional%20support%20communities%20impact%20users%E2%80%99%20emotions%20and%20well-being.pdf)
+- 📝 [View Paper (Word)](supplement/Us_paper/How%20do%20self-built%20emotional%20support%20communities%20impact%20users%E2%80%99%20emotions%20and%20well-being.docx)
 
-### 🎨 **项目海报**
+### 🎨 **Project Poster**
 <div align="center">
-  <img src="supplement/Us_poster/Us-Poster.png" alt="Us项目研究海报" width="600"/>
+  <img src="supplement/Us_poster/Us-Poster.png" alt="Us Project Research Poster" width="600"/>
   <br>
-  <em>Us项目学术研究海报展示</em>
+  <em>Us Project Academic Research Poster</em>
 </div>
 
-- 🖼️ [下载海报 (PNG)](supplement/Us_poster/Us-Poster.png)
-- 📄 [下载海报 (PDF)](supplement/Us_poster/Us_Poster.pdf)
+- 🖼️ [Download Poster (PNG)](supplement/Us_poster/Us-Poster.png)
+- 📄 [Download Poster (PDF)](supplement/Us_poster/Us_Poster.pdf)
 
-### 📊 **项目演示PPT**
-完整的项目介绍和技术展示演示文稿。
+### 📊 **Project Presentation**
+Complete project introduction and technical demonstration slides.
 
-- 📽️ [查看演示PPT](supplement/Us.pptx)
+- 📽️ [View Presentation PPT](supplement/Us.pptx)
 
-## 🎨 项目特色
+## 🎨 Project Features
 
-- **🔒 隐私保护** - 本地 AI 模型，数据不上传
-- **💰 完全免费** - 无需 API 费用，本地运行
-- **🌍 双语支持** - 中英文智能切换
-- **📈 数据驱动** - 详细的用户行为分析
-- **🎭 情感智能** - 理解和回应用户情感需求
-- **⚡ 快速开发** - 不到一周完成全栈开发，展现高效执行力
+- **🔒 Privacy Protection** - Local AI model, no data upload
+- **💰 Completely Free** - No API fees, runs locally
+- **🌍 Bilingual Support** - Intelligent Chinese-English switching
+- **📈 Data-Driven** - Detailed user behavior analysis
+- **🎭 Emotional Intelligence** - Understands and responds to user emotional needs
+- **⚡ Rapid Development** - Completed full-stack development in less than a week, demonstrating efficient execution
 
-## 📊 数据分析功能
+## 📊 Data Analysis Features
 
-项目包含完整的数据分析系统：
-- **用户行为统计** - 记录和分析用户操作
-- **情感趋势分析** - 追踪情感状态变化
-- **群体活跃度报告** - 分析群体互动数据
-- **可视化图表生成** - 生成PNG图表和CSV/JSON报告
+Project includes complete data analysis system:
+- **User Behavior Statistics** - Record and analyze user operations
+- **Emotional Trend Analysis** - Track emotional state changes
+- **Group Activity Reports** - Analyze group interaction data
+- **Visualization Chart Generation** - Generate PNG charts and CSV/JSON reports
 
-### 📈 **数据可视化演示**
+### 📈 **Data Visualization Demo**
 
-#### 🔍 **综合趋势分析**
+#### 🔍 **Comprehensive Trend Analysis**
 <div align="center">
-  <img src="fake_data/all_trends_summary.png" alt="综合趋势分析" width="700"/>
+  <img src="fake_data/all_trends_summary.png" alt="Comprehensive Trend Analysis" width="700"/>
   <br>
-  <em>用户情感趋势和行为模式综合分析</em>
+  <em>Comprehensive analysis of user emotional trends and behavior patterns</em>
 </div>
 
-#### 📋 **数据仪表板**
+#### 📋 **Data Dashboard**
 <div align="center">
-  <img src="fake_data/dashboard_summary.png" alt="数据仪表板" width="700"/>
+  <img src="fake_data/dashboard_summary.png" alt="Data Dashboard" width="700"/>
   <br>
-  <em>用户活跃度和情感分布统计仪表板</em>
+  <em>User activity and emotional distribution statistics dashboard</em>
 </div>
 
-### 数据文件结构
+### Data File Structure
 ```
-├── real_data/          # 真实用户数据
-│   ├── logs.json       # 用户行为日志
-│   └── *.csv          # 统计报告
-├── fake_data/          # 测试数据
-│   ├── logs_fake.json  # 模拟用户日志
-│   └── *.png          # 可视化图表
+├── real_data/          # Real user data
+│   ├── logs.json       # User behavior logs
+│   └── *.csv          # Statistical reports
+├── fake_data/          # Test data
+│   ├── logs_fake.json  # Simulated user logs
+│   └── *.png          # Visualization charts
 ```
 
-## 🔧 故障排除
+## 🔧 Troubleshooting
 
-### 常见问题解决
+### Common Issues
 
-**Q: AI聊天不工作？**
-- 确保已安装Ollama：`brew install ollama`
-- 下载AI模型：`ollama pull qwen2:1.5b`
-- 检查AI服务是否启动：`cd us-ai-server && node server.js`
+**Q: AI chat not working?**
+- Ensure Ollama is installed: `brew install ollama`
+- Download AI models: `ollama pull qwen2:1.5b`
+- Check if AI service is started: `cd us-ai-server && node server.js`
 
-**Q: 页面无法加载？**
-- 使用本地服务器：`npx http-server . -p 1234`
-- 访问：`http://localhost:1234/Us.html`
+**Q: Page won't load?**
+- Use local server: `npx http-server . -p 1234`
+- Access: `http://localhost:1234/Us.html`
 
-**Q: 数据分析报错？**
-- 确保有数据文件：先运行`node generate-fake-logs.js`生成测试数据
-- 检查Python环境：数据分析需要Python 3.7+
+**Q: Data analysis errors?**
+- Ensure data files exist: first run `node generate-fake-logs.js` to generate test data
+- Check Python environment: data analysis requires Python 3.7+
 
-**Q: 端口被占用？**
-- 修改端口：`npx http-server . -p 8080`（使用其他端口）
-- 检查端口占用：`lsof -i :1234`
+**Q: Port occupied?**
+- Change port: `npx http-server . -p 8080` (use other port)
+- Check port usage: `lsof -i :1234`
 
-## 🤝 贡献指南
+## 🤝 Contributing
 
-欢迎贡献代码、报告问题或提出建议！
+Welcome to contribute code, report issues, or suggest improvements!
 
-1. Fork 项目
-2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 打开 Pull Request
+1. Fork the project
+2. Create feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open Pull Request
 
-## 📄 许可证
+## 📄 License
 
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
+This project uses MIT License - see [LICENSE](LICENSE) file for details
 
-## 👨‍💻 作者
+## 👨‍💻 Author
 
 **Domy Yu (于梓方)**
-- 🎓 **16岁高中生** - 年轻的全栈开发者
-- 🚀 项目创建者和独立开发者
-- ⚡ 在不到一周时间内完成整个项目的设计、开发和部署
-- 💡 致力于通过技术连接人心，创造温暖的数字社区
-- 🌟 展现了超越年龄的技术天赋和全栈开发能力
+- 🎓 **16-year-old high school student** - Young full-stack developer
+- 🚀 Project creator and independent developer
+- ⚡ Completed the entire project design, development and deployment in less than a week
+- 💡 Dedicated to connecting hearts through technology, creating warm digital communities
+- 🌟 Demonstrates exceptional technical talent and full-stack development capabilities beyond his age
 
-## 🙏 致谢
+## 🙏 Acknowledgments
 
-感谢所有为情感健康和社交连接做出贡献的开源项目和社区。
+Thanks to all open source projects and communities that contribute to emotional health and social connection.
 
 ---
 
 <div align="center">
   <strong>Us is many U, U belong to Us</strong><br>
-  让每个人都能找到属于自己的温暖群体 💙
-
+  Let everyone find their own warm community 💙
+  
   <br><br>
-
+  
   <img src="UsBot/UsBotHeart.png" alt="UsBot Heart" width="100"/>
-
+  
   <br>
-
-  <em>用爱心连接每一个U，温暖每一颗心 ❤️</em>
+  
+  <em>Connecting every U with love, warming every heart ❤️</em>
 </div>
